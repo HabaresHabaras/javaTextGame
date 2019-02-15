@@ -18,6 +18,7 @@ public class VisibilityManager {
 
         //Hide the game screen start
         ui.mainTextPanel.setVisible(false);
+        ui.mainPictureArea.setVisible(false);
         ui.choiceButtonPanel.setVisible(false);
         ui.playerPanel.setVisible(false);
     }
@@ -27,11 +28,22 @@ public class VisibilityManager {
         ui.titleNamePanel.setVisible(false);
         ui.startButtonPanel.setVisible(false);
 
-        //Hide the game screen start
+        //Hide the title screen start
         ui.mainTextPanel.setVisible(true);
+        ui.mainPictureArea.setVisible(false);
         ui.choiceButtonPanel.setVisible(true);
         ui.playerPanel.setVisible(true);
     }
+    public void showPicture(){
 
+        //show the title screen
+        ui.titleNamePanel.setVisible(false);
+        ui.startButtonPanel.setVisible(false);
+
+        //Hide the title screen start
+        ui.mainTextPanel.setVisible(false);
+        ui.mainPictureArea.setVisible(true);
+        ui.choiceButtonPanel.setVisible(true);
+        ui.playerPanel.setVisible(true);    }
 }
 
