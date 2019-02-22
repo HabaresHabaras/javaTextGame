@@ -8,16 +8,34 @@
   <component name="ChangeListManager">
     <list default="true" id="30efdcd5-f298-409f-bd93-0854b6d3e90c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package01/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package01/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/EnigmaPlusPlus_jar/EnigmaPlusPlus.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/EnigmaPlusPlus_jar/EnigmaPlusPlus.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package01/Story.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package01/Story.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package01/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package01/UI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package01/VisibilityManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package01/VisibilityManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Weapon_Knife.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Weapon_Knife.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Monster_BlindZombieMutant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Monster_BlindZombieMutant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Monster_GiantScorpion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Monster_GiantScorpion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Monster_GiantSpider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Monster_GiantSpider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Monster_MutantDeathBear.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Monster_MutantDeathBear.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Monster_MutantZombie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Monster_MutantZombie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Monster_Undead.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Monster_Undead.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Monster_ZombieSkeleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Monster_ZombieSkeleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/SuperMonster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/SuperMonster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/SuperWeapon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/SuperWeapon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Weapon_CursedBlade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Weapon_CursedBlade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Weapon_DarkLizardWand.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Weapon_DarkLizardWand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Weapon_GoldenSword.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EnigmaPlusPlus/Package02/Weapon_GoldenSword.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package01/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package01/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Package01/Story.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package01/Story.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package01/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package01/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package01/VisibilityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package01/VisibilityManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Package02/Weapon_Knife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package02/Weapon_Knife.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package02/Monster_BlindZombieMutant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package02/Monster_BlindZombieMutant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package02/Monster_GiantScorpion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package02/Monster_GiantScorpion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package02/Monster_GiantSpider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package02/Monster_GiantSpider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package02/Monster_MutantDeathBear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package02/Monster_MutantDeathBear.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package02/Monster_MutantZombie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package02/Monster_MutantZombie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package02/Monster_Undead.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package02/Monster_Undead.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package02/Monster_ZombieSkeleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package02/Monster_ZombieSkeleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package02/SuperMonster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package02/SuperMonster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package02/SuperWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package02/SuperWeapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package02/Weapon_CursedBlade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package02/Weapon_CursedBlade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package02/Weapon_DarkLizardWand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package02/Weapon_DarkLizardWand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Package02/Weapon_GoldenSword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Package02/Weapon_GoldenSword.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,41 +85,43 @@
     <session id="1572515051">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="18" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.16" value="1" />
-          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="85117" />
+          <entry key="java" value="127902" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="85117" />
+          <entry key="JAVA" value="127902" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="21" />
+          <entry key="java" value="48" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="48" />
         </counts>
       </usages-collector>
     </session>
@@ -111,17 +131,85 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Package01/Story.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="1217" column="87" selection-start-line="1217" selection-start-column="87" selection-end-line="1217" selection-end-column="87" />
+            <state relative-caret-position="693">
+              <caret line="2727" column="33" lean-forward="true" selection-start-line="2727" selection-start-column="33" selection-end-line="2727" selection-end-column="33" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Package01/UI.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Package01/Game.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+              <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Package01/VisibilityManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1029">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Package01/Player.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Package02/Weapon_CursedBlade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="48" selection-start-line="7" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Package02/Weapon_ZombieRage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" selection-start-column="18" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Package02/Weapon_DarkLizardWand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="10" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Package02/SuperWeapon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Package02/SuperMonster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -137,25 +225,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>monster</find>
-      <find>monstera</find>
-      <find>randomEncounter</find>
-      <find>townGate</find>
-      <find>pine</find>
-      <find>dad</find>
-      <find>sorry child</find>
-      <find>suddenly a</find>
-      <find>i'm lost</find>
-      <find>hp</find>
-      <find>hplabel</find>
-      <find>HP</find>
-      <find>blue</find>
-      <find>your hp</find>
-      <find>fight</find>
-      <find>a spider</find>
-      <find>no sound from</find>
-      <find>the fish</find>
-      <find>oh</find>
       <find>asylum</find>
       <find>you def</find>
       <find>theyAreNotFine</find>
@@ -167,6 +236,25 @@
       <find>vm</find>
       <find>nightmare</find>
       <find>nightmareFirstNight</find>
+      <find>oro</find>
+      <find>playeratta</find>
+      <find>playerDamage</find>
+      <find>monster</find>
+      <find>funday</find>
+      <find>noeffect</find>
+      <find>jonah</find>
+      <find>zombieRage</find>
+      <find>STAY QUIET</find>
+      <find>basement</find>
+      <find>fight</find>
+      <find>fight()</find>
+      <find>undead</find>
+      <find>player.hp</find>
+      <find>shinny sword</find>
+      <find>your wounds</find>
+      <find>dark blue blo</find>
+      <find>the wolf dodges</find>
+      <find>culttown</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -175,29 +263,34 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Package02/SuperWeapon.java" />
         <option value="$PROJECT_DIR$/src/Package02/Weapon_SmallSword.java" />
-        <option value="$PROJECT_DIR$/src/Package02/SuperMonster.java" />
         <option value="$PROJECT_DIR$/src/Package02/Monster_KillerTree.java" />
         <option value="$PROJECT_DIR$/src/Package02/Monster_Goblin.java" />
         <option value="$PROJECT_DIR$/src/Package01/Game.java" />
         <option value="$PROJECT_DIR$/src/Package02/Weapon_SmallAxe.java" />
-        <option value="$PROJECT_DIR$/src/Package02/Monster_GiantScorpion.java" />
-        <option value="$PROJECT_DIR$/src/Package01/Player.java" />
         <option value="$PROJECT_DIR$/src/Package01/Monster_ZombieSkeleton.java" />
         <option value="$PROJECT_DIR$/src/Package02/Weapon_Knife.java" />
         <option value="$PROJECT_DIR$/src/Package02/Weapon_SmallWand.java" />
-        <option value="$PROJECT_DIR$/src/Package02/Monster_ZombieSkeleton.java" />
-        <option value="$PROJECT_DIR$/src/Package02/Monster_MutantZombie.java" />
-        <option value="$PROJECT_DIR$/src/Package02/Weapon_DarkLizardWand.java" />
-        <option value="$PROJECT_DIR$/src/Package02/Monster_MutantDeathBear.java" />
         <option value="$PROJECT_DIR$/src/Package01/VisibilityManager.java" />
         <option value="$PROJECT_DIR$/src/Package01/UI.java" />
-        <option value="$PROJECT_DIR$/src/Package02/Monster_Undead.java" />
-        <option value="$PROJECT_DIR$/src/Package02/Weapon_GoldenSword.java" />
-        <option value="$PROJECT_DIR$/src/Package02/Weapon_CursedBlade.java" />
+        <option value="$PROJECT_DIR$/src/Package02/SuperMonster.java" />
         <option value="$PROJECT_DIR$/src/Package02/Monster_BlindZombieMutant.java" />
+        <option value="$PROJECT_DIR$/src/Package02/Monster_MutantDeathBear.java" />
+        <option value="$PROJECT_DIR$/src/Package02/Monster_MutantZombie.java" />
+        <option value="$PROJECT_DIR$/src/Package02/Monster_Undead.java" />
+        <option value="$PROJECT_DIR$/src/Package02/Monster_ZombieSkeleton.java" />
         <option value="$PROJECT_DIR$/src/Package02/Monster_GiantSpider.java" />
+        <option value="$PROJECT_DIR$/src/Package02/Monster_GiantScorpion.java" />
+        <option value="$PROJECT_DIR$/src/Package02/SuperWeapon.java" />
+        <option value="$PROJECT_DIR$/src/Package02/Weapon_DarkLizardWand.java" />
+        <option value="$PROJECT_DIR$/src/Package02/Monster_JonahTheMurderer.java" />
+        <option value="$PROJECT_DIR$/src/Package01/Player.java" />
+        <option value="$PROJECT_DIR$/src/Package02/Weapon_CursedBlade.java" />
+        <option value="$PROJECT_DIR$/src/Package02/Monster_SmCentipodeh.java" />
+        <option value="$PROJECT_DIR$/src/Package02/Monster_GiantCentipodeh.java" />
+        <option value="$PROJECT_DIR$/src/Package02/Weapon_ZombieRage.java" />
+        <option value="$PROJECT_DIR$/src/Package02/Weapon_GoldenSword.java" />
+        <option value="$PROJECT_DIR$/src/Package02/Weapon_ExoSkeleton.java" />
         <option value="$PROJECT_DIR$/src/Package01/Story.java" />
       </list>
     </option>
@@ -216,6 +309,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,18 +327,22 @@
               <item name="EnigmaPlusPlus" type="b2602c69:ProjectViewProjectNode" />
               <item name="EnigmaPlusPlus" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Package01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EnigmaPlusPlus" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EnigmaPlusPlus" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Package02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550272432870" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550873457455" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../imageDisplay" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -300,11 +399,48 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5016112" side_tool="true" weight="0.30351076" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49838883" weight="0.30351076" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946293" weight="0.3997735" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.32616082" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295583" />
+      <window_info anchor="bottom" id="Message" order="7" />
+      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973147" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2019334" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -330,64 +466,16 @@
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12244898" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="UI Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Image Layers" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32842582" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32842582" />
-      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="2" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Package02/SuperWeapon.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package01/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_KillerTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="18" selection-start-column="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package02/SuperMonster.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Package02/Weapon_Knife.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -402,80 +490,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_MutantDeathBear.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package02/Weapon_DarkLizardWand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_MutantZombie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package01/VisibilityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_Undead.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package01/UI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1743">
-          <caret line="83" column="16" selection-start-line="83" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package02/Weapon_CursedBlade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package02/Weapon_GoldenSword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Package02/Weapon_SmallSword.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_Goblin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_GiantScorpion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="24" selection-start-line="8" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -486,38 +504,167 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_ZombieSkeleton.java">
+    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_KillerTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-end-line="12" />
+        <state>
+          <caret selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_BlindZombieMutant.java">
+    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_MutantZombie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="189">
+          <caret line="9" column="92" lean-forward="true" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_Undead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="99" selection-start-line="7" selection-start-column="99" selection-end-line="7" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_ZombieSkeleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Package02/Monster_GiantSpider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+        <state relative-caret-position="168">
+          <caret line="8" column="118" selection-start-line="8" selection-start-column="118" selection-end-line="8" selection-end-column="118" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Package01/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_GiantScorpion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="273">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_Goblin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_MutantDeathBear.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="120" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_BlindZombieMutant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_SmCentipodeh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_GiantCentipodeh.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="82" selection-start-line="9" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package02/Monster_JonahTheMurderer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package02/Weapon_GoldenSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package02/Weapon_ExoSkeleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="121" selection-start-line="7" selection-start-column="121" selection-end-line="7" selection-end-column="121" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Package01/Story.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="1217" column="87" selection-start-line="1217" selection-start-column="87" selection-end-line="1217" selection-end-column="87" />
+        <state relative-caret-position="693">
+          <caret line="2727" column="33" lean-forward="true" selection-start-line="2727" selection-start-column="33" selection-end-line="2727" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package01/UI.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package01/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package01/VisibilityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1029">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package01/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package02/Weapon_CursedBlade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="48" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package02/Weapon_ZombieRage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package02/Weapon_DarkLizardWand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package02/SuperWeapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Package02/SuperMonster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>

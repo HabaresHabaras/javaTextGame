@@ -25,7 +25,7 @@ public class Story {
 
     public void defaultSetUp(){
 
-        player.hp = 20;
+        player.hp = 300;
         player.level = 1;
         player.exp = 0;
         ui.hpLabelNumber.setText("" + player.hp);
@@ -298,45 +298,136 @@ public class Story {
             case "getFarHouse": getFarHouse(); break;
             case "checkCentipedeHouse": checkCentipedeHouse(); break;
             case "stayWithBoy": stayWithBoy(); break;
+            case "noEffectJonah": noEffectJonah(); break;
+            case "yesEffectJonah": yesEffectJonah(); break;
+            case "defeatJonahBuilder": defeatJonahBuilder(); break;
+            case "zombieRage": zombieRage(); break;
+            case "zombieRageAttack": zombieRageAttack(); break;
+            case "trapCenti": trapCenti(); break;
+            case "noBodyCenti": noBodyCenti(); break;
+            case "centiEatsGrows": centiEatsGrows(); break;
+            case "giantCenti": giantCenti(); break;
+            case "fightGiantCenti": fightGiantCenti(); break;
             case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-            case "boyWakesUp": boyWakesUp(); break;
-
-
+            case "boySpitsTar": boySpitsTar(); break;
+            case "boyBackToSleep": boyBackToSleep(); break;
+            case "leaveBoyHouse": leaveBoyHouse(); break;
+            case "toMainVBuilding": toMainVBuilding(); break;
+            case "openVillageHall": openVillageHall(); break;
+            case "pastDeskRoom": pastDeskRoom(); break;
+            case "intoHallsHall": intoHallsHall(); break;
+            case "followHallway": followHallway(); break;
+            case "prisonerCentipede": prisonerCentipede(); break;
+            case "prisonExplain": prisonExplain(); break;
+            case "prisonRecords": prisonRecords(); break;
+            case "readPrisonRecords": readPrisonRecords(); break;
+            case "recordsFirst": recordsFirst(); break;
+            case "recordsSecond": recordsSecond(); break;
+            case "recordsThird": recordsThird(); break;
+            case "recordsFourth": recordsFourth(); break;
+            case "recordsFifth": recordsFifth(); break;
+            case "recordsSixth": recordsSixth(); break;
+            case "talkPossibleMurderer": talkPossibleMurderer(); break;
+            case "happenedVillage": happenedVillage(); break;
+            case "creatureInWell": creatureInWell(); break;
+            case "whatCreaturePrison": whatCreaturePrison(); break;
+            case "questionPrisonGuy": questionPrisonGuy(); break;
+            case "prisonGuyAnswers": prisonGuyAnswers(); break;
+            case "freePrisoner": freePrisoner(); break;
+            case "fakeTomsFree": fakeTomsFree(); break;
+            case "leaveVillageHall": leaveVillageHall(); break;
+            case "sinisterAfVillage": sinisterAfVillage(); break;
+            case "wakeUpBoyTar": wakeUpBoyTar(); break;
+            case "heyBoyTar": heyBoyTar(); break;
+            case "boyTarFeeling": boyTarFeeling(); break;
+            case "boyTarMission": boyTarMission(); break;
+            case "knowTarBoy": knowTarBoy(); break;
+            case "sawTarBoy": sawTarBoy(); break;
+            case "cleanTarBoy": cleanTarBoy(); break;
+            case "tarBoyBye": tarBoyBye(); break;
+            case "goinCentipedeWell": goinCentipedeWell(); break;
+            case "intoTheDarkness": intoTheDarkness(); break;
+            case "inCentipedeCave": inCentipedeCave(); break;
+            case "metalCentipedeCave": metalCentipedeCave(); break;
+            case "hummingCave": hummingCave(); break;
+            case "originHumming": originHumming(); break;
+            case "tapGlassCylinder": tapGlassCylinder(); break;
+            case "tapBackCylinder": tapBackCylinder(); break;
+            case "personCylinder": personCylinder(); break;
+            case "centipodeAppears": centipodeAppears(); break;
+            case "centipodeTalks": centipodeTalks(); break;
+            case "centipodesPlan": centipodesPlan(); break;
+            case "makeSoundCentipode": makeSoundCentipode(); break;
+            case "injectCentipode": injectCentipode(); break;
+            case "runCentipode": runCentipode(); break;
+            case "paralyzedCentipode": paralyzedCentipode(); break;
+            case "passOutCenti": passOutCenti(); break;
+            case "inTubeCenti": inTubeCenti(); break;
+            case "amDeadCenti": amDeadCenti(); break;
+            case "noRelaxCenti": noRelaxCenti(); break;
+            case "punchDarkness": punchDarkness(); break;
+            case "punchTwoDark": punchTwoDark(); break;
+            case "punchThreeDark": punchThreeDark(); break;
+            case "punchKickGlass": punchKickGlass(); break;
+            case "omaebaWoShindeiro": omaebaWoShindeiro(); break;
+            case "youAlreadyDead": youAlreadyDead(); break;
+            case "defeatSmallCenti": defeatSmallCenti(); break;
+            case "centiReturns": centiReturns(); break;
+            case "centiOrigin": centiOrigin(); break;
+            case "whyHereCenti": whyHereCenti(); break;
+            case "cantStopCenti": cantStopCenti(); break;
+            case "specialAttackCenti": specialAttackCenti(); break;
+            case "exhaustedBeeping": exhaustedBeeping(); break;
+            case "backNormalCenti": backNormalCenti(); break;
+            case "roomCentiDestroy": roomCentiDestroy(); break;
+            case "roomAfterCenti": roomAfterCenti(); break;
+            case "freeVillagersBreak": freeVillagersBreak(); break;
+            case "freeVillagersPush": freeVillagersPush(); break;
+            case "villagersFreed": villagersFreed(); break;
+            case "saulGoodMan": saulGoodMan(); break;
+            case "pushButtonCave": pushButtonCave(); break;
+            case "electricCave": electricCave(); break;
+            case "back2Investigate": back2Investigate(); break;
+            case "investigateHallway": investigateHallway(); break;
+            case "closerToTv": closerToTv(); break;
+            case "helloProfPipcac": helloProfPipcac(); break;
+            case "cornelioIsPipcac": cornelioIsPipcac(); break;
+            case "cornelioIsRecording": cornelioIsRecording(); break;
+            case "cornelioExplains": cornelioExplains(); break;
+            case "whatsExoskeleton": whatsExoskeleton(); break;
+            case "getExoskeleto": getExoskeleto(); break;
+            case "cornelioOut": cornelioOut(); break;
+            case "questionsForPipcac": questionsForPipcac(); break;
+            case "mirrorOut": mirrorOut(); break;
+            case "centipedeWell": centipedeWell(); break;
+            case "whatsTarInBoy": whatsTarInBoy(); break;
+            case "whatZombiesSilence": whatZombiesSilence(); break;
+            case "findPrice": findPrice(); break;
+            case "openRewardWall": openRewardWall(); break;
+            case "goOutPastBasement": goOutPastBasement(); break;
+            case "notTomJonah": notTomJonah(); break;
+            case "blindsMutantRage": blindsMutantRage(); break;
+            case "pushBlindsEnemy": pushBlindsEnemy(); break;
+            case "moveOnHouse": moveOnHouse(); break;
+            case "whatsGrisTalking": whatsGrisTalking(); break;
+            case "punchBlindsEnemy": punchBlindsEnemy(); break;
+            case "stabBlindsEnemy": stabBlindsEnemy(); break;
 
         }
     }
+
+    //START(
     public void wakeUp(){
         ui.mainTextArea.setText("You wake up, \n like any morning, your room is full of light. \n Someone is calling your name from downstairs.");
         ui.choice1.setText("Leave bed");
         ui.choice2.setText("");
-
+//FIRST SCENE AFTER START- default: funday / change for debugging
         game.nextPosition1 = "funDay";
         game.nextPosition2 = "";
     }
+
+
+
 //    public void attackGuard(){
 //         if(silverRing == 0) {
 //            ui.mainTextArea.setText("Yameroo");
@@ -480,20 +571,31 @@ public class Story {
     }
 
     public void waitForGhouls(){
-        ui.mainTextArea.setText("A while goes by, you turn all the candles off \nand look out the window, awaiting their arrival. \n\n\n Paft, bam! They start banging on the door, as if they knew\n u are hiding here. \nThe wooden door shakes everytime it get beaten.  ");
+        ui.mainTextArea.setText("A while goes by, you turn all the candles off \nand look out the window, awaiting their arrival. \n\n\n Paft, bam! They start banging on the door, as if they knew\n u are hiding here. \nThe wooden door shakes everytime it gets beaten.  ");
         ui.choice1.setText("What do you want?");
         ui.choice2.setText("Stay quiet");
 
         game.nextPosition1 = "whatDoZombiesWant";
-        game.nextPosition2 = "";
-    }    public void whatDoZombiesWant(){
+        game.nextPosition2 = "whatZombiesSilence";
+    }
+
+    public void whatDoZombiesWant(){
         ui.mainTextArea.setText("No answer, just 'blergh' and 'aaaaaah'. \nThe villagers keep shouting things you can't understand, \nand beating the door. \n\nThey seem very angry and anxious.");
         ui.choice1.setText("Go hide");
         ui.choice2.setText("");
 
         game.nextPosition1 = "hideFromZombies";
         game.nextPosition2 = "";
-    }    public void hideFromZombies(){
+    }
+    public void whatZombiesSilence(){
+        ui.mainTextArea.setText("You stay quiet and they start saying 'blergh' and 'aaaaaah'. \nThe villagers keep shouting things you can't understand, \nand beating the door. \n\nThey seem very angry and anxious.");
+        ui.choice1.setText("Go hide");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "hideFromZombies";
+        game.nextPosition2 = "";
+    }
+    public void hideFromZombies(){
         ui.mainTextArea.setText("The beating and the shouts continue. \n They will get in soon. The door can't hold forever. \n\n You make a run for it. To the basement!!!\nYou get to the basement, and lock its door too. Its cold\nand humid. ");
         ui.choice1.setText("...");
         ui.choice2.setText("");
@@ -622,15 +724,25 @@ public class Story {
         ui.choice2.setText("Go outside");
 
         game.nextPosition1 = "goBackBasement";
-        game.nextPosition2 = "";
+        game.nextPosition2 = "goOutPastBasement";
     }    public void goBackBasement(){
-        ui.mainTextArea.setText("As if you wanted to make sure what happened was real.\nYou head back to the basement, and there\nthe sliced corpses of your enemies lay.\n\nHow the hell am I alive? you think");
+        ui.mainTextArea.setText("As if you wanted to make sure what happened was real.\nYou head back to the basement, and there\nthe sliced corpses of your enemies lay, it smells terrible.\n\nHow the hell am I alive? you think");
         ui.choice1.setText("Go outside");
         ui.choice2.setText("");
 
         game.nextPosition1 = "goOutsideZombies";
         game.nextPosition2 = "";
-    }    public void goOutsideZombies(){
+    }
+
+    public void goOutPastBasement(){
+        ui.mainTextArea.setText("You head outside, crossing the living room, you pass \nthe basement door.\n\nThere's a rotten smell coming from down there.\nYou head to the street.");
+        ui.choice1.setText("Go outside");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "goOutsideZombies";
+        game.nextPosition2 = "";
+    }
+    public void goOutsideZombies(){
         ui.mainTextArea.setText("The events from the other night\nwere extremely traumatic, but you seem to not care.\n\nYou head to the street, feeling nothing\nnot anger nor anxiety or fear. You walk out, \ncaring about nothing at all.");
         ui.choice1.setText("...");
         ui.choice2.setText("");
@@ -672,7 +784,7 @@ public class Story {
         game.nextPosition1 = "firstHouseZombies";
         game.nextPosition2 = "";
     }    public void firstHouseZombies(){
-        ui.mainTextArea.setText("You check the house closest to you.\n\nHere used to live a couple of farmers.\nAll the furniture is shredded. \n\nIn the main room, you find a friend.\nAn undead, looks at you silently from across the room.");
+        ui.mainTextArea.setText("You check the house closest to you.\n\nHere used to live a couple of farmers.\nAll the furniture is shredded. \n\nIn the main room, you find a friend turned\nin undead, your old pal looks at you silently from across the room.");
         monster = new Monster_Undead();
         positionAfterBattle = "outFirstHouse";
         ui.choice1.setText("Fight");
@@ -698,7 +810,8 @@ public class Story {
         game.nextPosition1 = "fight";
         game.nextPosition2 = "";
     }    public void outSecondHouse(){
-        player.hp = 20;
+//        call max health instead of this
+        player.hp = 200;
         ui.hpLabelNumber.setText(""+player.hp);
         ui.mainTextArea.setText("You found some heart potato.\nFarmers use this rare vegetable as a medicine.\nYou take a bite of the root and your health recovers.\n\nEnough scouting, you have to get back home and come up with a plan");
         ui.choice1.setText("Go home again");
@@ -709,7 +822,7 @@ public class Story {
     }
 
     public void goHomeToPack(){
-        ui.mainTextArea.setText("You get back to the your house \nfeeling an uncontrollable urge to vomit.\n\nYou can't exactly describe the sensation you've had\nsince you woke up.\nBut you know there's something different about you\nyou transformed overnight.");
+        ui.mainTextArea.setText("You get back to the your house \nfeeling an uncontrollable urge to vomit.\n\nYou can't exactly describe the sensation you've had\nsince you woke up.\nBut you know there's something different about you,\nyou transformed overnight.");
         ui.choice1.setText("...");
         ui.choice2.setText("");
 
@@ -718,7 +831,7 @@ public class Story {
     }
 
     public void checkMirrorUZombie(){
-        ui.mainTextArea.setText("You go back to your room once again\nface the mirror and check with more detail your body.\n\nYou are pale, and can see your veins thru your skin.\nYour eyes changed color, to a reddish hue.\nYou look like the mutant undead lady.");
+        ui.mainTextArea.setText("You go back to your room once again\nface the mirror and check with more detail your body.\n\nYou are pale, and can see your veins thru your skin.\nYour eyes changed color, to a reddish hue.\nYou look like the mutant undead lady you fought earlier.");
         ui.choice1.setText("...");
         ui.choice2.setText("");
 
@@ -726,12 +839,12 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void youAreZombie(){
-        ui.mainTextArea.setText("Unbelievable, as if the curse that tormented these monsters\nhad infected you too.\n\nYou are one of them now, and crave blood and violence.\nBut your transformation hasn't completed, you aren't crazy like them.");
+        ui.mainTextArea.setText("Unbelievable, as if the curse that tormented these monsters\nhad infected you too.\n\nYou are one of them now.\nBut your transformation hasn't completed, you aren't crazy like them.");
         ui.choice1.setText("I am a monster");
         ui.choice2.setText("It can't be");
 
         game.nextPosition1 = "iAmAMonster";
-        game.nextPosition2 = "";
+        game.nextPosition2 = "iAmAMonster";
     }
     public void iAmAMonster(){
         ui.mainTextArea.setText("Your emotions have faded away\nlike the color of your skin.\n\nBefore you can further check yourself, a voice shouts:\n'HEEEELP, SOMEONE HELP'-\n\nSomeone is in trouble, it comes from outside.");
@@ -817,7 +930,7 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void checkTreeBattle(){
-        ui.mainTextArea.setText("On a tree near the bodies\na piece of paper written in red\nstapled to the trunk with an arrow.\n\n'Keep moving forward to the village south of here, kid.'-");
+        ui.mainTextArea.setText("On a tree near the bodies\na piece of paper written in red\nwas stapled to the trunk with an arrow.\n\n'Keep moving forward to the village south of here, kid.'-");
         ui.choice1.setText("Is it for me?");
         ui.choice2.setText("Is it dad's?");
 
@@ -842,7 +955,7 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void openBlindsHouse(){
-        ui.mainTextArea.setText("You open the old house's door. \nBehind it, a mutant undead appears. \n\nIt looks hungry.");
+        ui.mainTextArea.setText("It's an old wood house, with two stories and\npainted red, but the color has faded away with time. \nYou open the old house's door. \nBehind it, a mutant undead appears. \n\nIt looks hungry.");
         monster = new Monster_MutantZombie();
         positionAfterBattle = "blindGetsBitten";
         ui.choice1.setText("fight");
@@ -852,7 +965,7 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void blindGetsBitten(){
-        ui.mainTextArea.setText("The monster is dead, but before dying it bit\nyour companion.\n\n'I'm ok, don't worry about it'- The blind man looks fine. \nBoth of you go in, looking for his wife.\nIt's dark inside.");
+        ui.mainTextArea.setText("The monster is dead, but before dying it bit\nyour companion, the blind sir.\n\n'I'm ok, don't worry about it'- The blind man looks fine. \nBoth of you go in, looking for his wife.\nIt's dark inside.");
         ui.choice1.setText("...");
         ui.choice2.setText("");
 
@@ -885,7 +998,7 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void takebackBlindsHome(){
-        ui.mainTextArea.setText("'Well, there's another enemy upstairs'\n'I can hear its footsteps'\n'Think you can take care of him?'- The old woman leans toward you.");
+        ui.mainTextArea.setText("'Well, there's another enemy upstairs'\n'I can hear its footsteps'\n'Think you can take care of him?'- The old woman leans toward you.\nShe seems to be in a lot of pain, her injuries are severe.");
         ui.choice1.setText("For sure");
         ui.choice2.setText("Not really");
 
@@ -910,16 +1023,37 @@ public class Story {
         game.nextPosition1 = "blindsHelpYou";
         game.nextPosition2 = "";
     }
+    public void punchBlindsEnemy(){
+        ui.mainTextArea.setText("'Paft'- that's the sound your fist made when you broke your fingers\npunching the mutant, this enemy is too powerful.");
+        player.hp -= 4;
+        ui.hpLabelNumber.setText(""+player.hp);
+        ui.choice1.setText("Attack again");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "blindsMutantRage";
+        game.nextPosition2 = "";
+    }
+    public void stabBlindsEnemy(){
+        ui.mainTextArea.setText("Your wrist cracks while bending\nyou trie to stab the mutant, but the sword won't go thru, thus bending your grip.");
+        player.hp -= 4;
+        ui.hpLabelNumber.setText(""+player.hp);
+        ui.choice1.setText("Attack again");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "blindsMutantRage";
+        game.nextPosition2 = "";
+    }
+
     public void blindsMutantRage(){
-        ui.mainTextArea.setText("Once again, your swords edge slides off\nthe enemy's impenetrable skin, without even scratching it.\n\n\nThe crazy mutant gets on top of you trying\nto bite off your flesh.");
+        ui.mainTextArea.setText("Once again, your sword's edge slides off\nthe enemy's impenetrable skin, without even scratching it.\n\n\nThe crazy mutant gets on top of you trying\nto bite off your flesh.");
         ui.choice1.setText("Push off");
         ui.choice2.setText("Stab again");
 
         game.nextPosition1 = "pushBlindsEnemy";
-        game.nextPosition2 = "";
+        game.nextPosition2 = "pushBlindsEnemy";
     }
     public void pushBlindsEnemy(){
-        ui.mainTextArea.setText("It doesn't matter what you try.\nYou can't harm the mutant with your sword, nor push him off.\n\nYour muscles bend to the pressure of the crazed cannibal.\nIt's teeth getting closer to your face.\nThe monster is about to feast on your meat.");
+        ui.mainTextArea.setText("It doesn't matter what you try.\nYou can't harm the mutant with your sword, nor push him off.\n\nYour muscles bend to the pressure of the crazed cannibal.\nIt's teeth getting closer to your face.\nThe monster is about to feast on your dead body.");
         ui.choice1.setText("HELP!!!!!");
         ui.choice2.setText("");
 
@@ -927,7 +1061,7 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void blindsHelpYou(){
-        ui.mainTextArea.setText("The blind man and Gris, come to your rescue.\nGris's painted dots under her eyes, shine blue.\nThe zombie gets pretty close\nbut before he can bite you, Gris's hands start \nshinning blue too, and from the tip of her fingers she\n shoots a deathly beam of the same color.");
+        ui.mainTextArea.setText("The blind man and Gris, come to your rescue.\n\nGris's painted dots under her eyes, shine blue.\n\nThe zombie gets pretty close\nbut before he can bite you, Gris's hands start \nshinning blue too, and from the tip of her fingers she\n shoots a deathly beam of the same color.");
         ui.choice1.setText("...");
         ui.choice2.setText("");
 
@@ -935,7 +1069,7 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void blueBeamMonster(){
-        ui.mainTextArea.setText("The monster stops and stares at the beam\ncoming towards its face.\n\nWhen the beam reaches the zombie, its body melts and becomes only bones.");
+        ui.mainTextArea.setText("The monster stops and stares at the beam\ncoming towards its face.\n\nWhen the beam reaches the zombie, it melts surrounded by blue fire and\nbecomes bones and blue embers.");
         ui.choice1.setText("Thanks!");
         ui.choice2.setText("");
 
@@ -947,8 +1081,8 @@ public class Story {
         ui.choice1.setText("What do you mean?");
         ui.choice2.setText("What's forbidden magic?");
 
-        game.nextPosition1 = "whatsForbiddenMagic";
-        game.nextPosition2 = "";
+        game.nextPosition1 = "whatsGrisTalking";
+        game.nextPosition2 = "whatsForbiddenMagic";
     }
     public void whatsForbiddenMagic(){
         ui.mainTextArea.setText("'It's magic than can alter this reality'\n'defying the natural laws of the world'\n'but if you overuse it, you can inflict harm on yourself'\n\n'I'm dying, small hero, allow me to grant you a favor'\n'before my end'- she mutters.");
@@ -958,7 +1092,14 @@ public class Story {
         game.nextPosition1 = "favorFromGris";
         game.nextPosition2 = "";
     }
+    public void whatsGrisTalking(){
+        ui.mainTextArea.setText("'I've used magic than can alter this reality'\n'defying the natural laws of the world'\n'if you overuse it, you can inflict harm on yourself'\n\n'I'm dying, small hero, allow me to grant you a favor'\n'before my end'- she mutters.");
+        ui.choice1.setText("What favor?");
+        ui.choice2.setText("");
 
+        game.nextPosition1 = "favorFromGris";
+        game.nextPosition2 = "";
+    }
     public void favorFromGris(){
         ui.mainTextArea.setText("'You tried to help us'\n'So its my way of saying thanks'\n'Your sword is weak, its purpose is not fighting'\n\n'So put it away, until you need it to fulfill your destiny.'");
         ui.choice1.setText("What destiny?");
@@ -976,7 +1117,7 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void whatDoorGris(){
-        ui.mainTextArea.setText("'It's your destiny, you'll find out'\n'without my help.'-\nShe hands you the shinny sword, warning you\nthe blade is cursed.\n\n\nYou receive 1 Cursed Blade");
+        ui.mainTextArea.setText("'It's your destiny, you'll find out'\n'without my help.'-\nShe hands you the shinny sword, warning you\nthe blade is cursed.\n\nShe talks as if she knew your future.\n\n\nYou receive 1 Cursed Blade");
         player.currentWeapon = new Weapon_CursedBlade();
         ui.weaponLabelName.setText(player.currentWeapon.name);
         ui.choice1.setText("Thank you");
@@ -1062,7 +1203,7 @@ public class Story {
     }
 
     public void knockDoorVillage(){
-        ui.mainTextArea.setText("You kick the door down\nand get inside.\n\nThere's a big cabinet near at the house's entrance,\nyou move it to block the door frame.\n\nYou start blowing off all the candles\n and leave the house dark.");
+        ui.mainTextArea.setText("You kick the door down\nand get inside.\n\nThere's a big cabinet near the house's entrance,\nyou move it to block the door frame.\n\nYou start blowing off all the candles\n and leave the house dark.");
         ui.choice1.setText("Wait in silence");
         ui.choice2.setText("Look around");
         game.nextPosition1 = "silenceInVillage";
@@ -1109,7 +1250,7 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void windowVillage(){
-        ui.mainTextArea.setText("There are three houses with the light on\ncounting the one you are in.\n\nYou decide to inspect them next.\nIt's been a while since you heard a sound from outside.");
+        ui.mainTextArea.setText("There are three houses with the light on\ncounting the one you are in.\n\nYou decide to inspect the other two next.\nIt's been a while since you heard a sound from outside.");
         ui.choice1.setText("Check house 2");
         ui.choice2.setText("Check house 3");
 
@@ -1119,24 +1260,24 @@ public class Story {
     public void checkCloseHouse(){
         ui.mainTextArea.setText("Your wounds closed while you rested. Hp +20.\n\n\nLet's do this!!!!\nTo the house closest from here");
         positionAfterBattle = "getCloseHouse";
-        player.hp = 20;
+        player.hp = 200;
         ui.hpLabelNumber.setText(""+player.hp);
         ui.choice1.setText("...");
         ui.choice2.setText("");
 
-        game.nextPosition1 = "checkHouse2";
+        game.nextPosition1 = "goNextHouse";
         game.nextPosition2 = "";
     }
 
     public void checkFarHouse(){
         ui.mainTextArea.setText("Your wounds closed while you rested. Hp +20.\n\n\nLet's do this!\nTo the house furthest away.");
         positionAfterBattle = "getFarHouse";
-        player.hp = 20;
+        player.hp = 200;
         ui.hpLabelNumber.setText(""+player.hp);
         ui.choice1.setText("...");
         ui.choice2.setText("");
 
-        game.nextPosition1 = "checkHouse3";
+        game.nextPosition1 = "goNextHouse";
         game.nextPosition2 = "";
     }
     public void goNextHouse(){
@@ -1152,7 +1293,15 @@ public class Story {
         ui.choice1.setText("Shout again");
         ui.choice2.setText("Move on");
 
-        game.nextPosition1 = "goBackHome";
+        game.nextPosition1 = "moveOnHouse";
+        game.nextPosition2 = "moveOnHouse";
+    }
+    public void moveOnHouse(){
+        ui.mainTextArea.setText("No sound comes from inside the house\nYou continue to the next house, to see if that one\nhas people inside.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "getFarHouse";
         game.nextPosition2 = "";
     }
     public void getFarHouse(){
@@ -1215,7 +1364,6 @@ public class Story {
         game.nextPosition1 = "toMainVBuilding";
         game.nextPosition2 = "";
     }
-    boyWakesUp boySpitsTar boyBackToSleep leaveBoyHouse toMainVBuilding openVillageHall
 
     public void toMainVBuilding(){
         ui.mainTextArea.setText("It's getting darker, but there's no sign of mutants.\n\nYou head out of the boy's house, and walk\n to what you assume is the town hall.");
@@ -1250,7 +1398,7 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void followHallway(){
-        ui.mainTextArea.setText("You get to the small room\nit has 6 cells made of iron bars.\nThis must be the town's jail.\n\nThere's only one prisoner, he isn't moving.");
+        ui.mainTextArea.setText("You get to the small room\nit has 6 cells made of iron bars.\nThis must be the town's jail.\n\nThere's only two prisoners, one is on the floor not moving,\nthe other is standing, with his back facing you.");
         ui.choice1.setText("Hello?");
         ui.choice2.setText("Leave");
 
@@ -1258,13 +1406,14 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void prisonerCentipede(){
-        ui.mainTextArea.setText("'Uh?, who goes there?'\n'Oh, its you!!!'\n\n'Come closer, kid'\n'Let me out of here!'");
+        ui.mainTextArea.setText("'Uh?, who goes there?'\n'Oh, its you!!!'\n\n'Come closer, kid'\n'Let me out of here!'- The prisoner standing calls you over.");
         ui.choice1.setText("Why are you here?");
         ui.choice2.setText("");
 
         game.nextPosition1 = "prisonExplain";
         game.nextPosition2 = "";
     }
+
     public void prisonExplain(){
         ui.mainTextArea.setText("'I didn't do anything'\n'I just helped a prisoner escape'\n'I used to be the guard of this jail'\n\n'The old man I helped was a sorcerer, and cursed the town'\n'everyone blamed me for letting him go'");
         ui.choice1.setText("How can I trust you?");
@@ -1274,14 +1423,14 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void prisonRecords(){
-        ui.mainTextArea.setText("'Check those papers on the wall'\n'they have a list of the prisoners and their crimes'\n'Those are the prison's records'");
+        ui.mainTextArea.setText("'Check those papers on the wall'\n'they have a list of the prisoners and their crimes'\n'Those are the prison's records'-\nThe man has a black beard and small beady eyes.");
         ui.choice1.setText("Read Prison records");
         ui.choice2.setText("");
 
         game.nextPosition1 = "readPrisonRecords";
         game.nextPosition2 = "";
     }
-    public void readPrisonRecords(){
+    public void readPrisonRecords() {
         ui.mainTextArea.setText("Hanged in the wall there's 6 written\nrecords.");
         ui.choice1.setText("Read first record");
         ui.choice2.setText("");
@@ -1290,7 +1439,7 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void recordsFirst(){
-        ui.mainTextArea.setText("'Canelo Spring'\n'Crimes: Plotting to overthrow city council.'\n'Hoarding weapons, for using against the council.'- The paper says.\n\n'Sentence: 1 year on cell number one.'\nThere's no one on that cell.");
+        ui.mainTextArea.setText("'Canelo Spring'\n'Crimes: Plotting to overthrow city council.'\n'Hoarding weapons, for using against the council.'- The paper says.\n'Sentence: 1 year on cell number one.'\n\nYou check and there's no one on that cell.");
         ui.choice1.setText("Next");
         ui.choice2.setText("");
 
@@ -1306,15 +1455,17 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void recordsThird(){
-        ui.mainTextArea.setText("'Rubio Icos'\n'Crimes: Defecating on the street, during daytime hours.'\n\n'Sentence: 1 week on cell number three.'\nHis cell is right next to the Guard's cell.\nIn the third cell there's a dead person, must be him.");
+        ui.mainTextArea.setText("'Rubio Icos'\n'Crimes: Defecating on the street, during daytime hours.'\n\n'Sentence: 1 week on cell number three.'\nHis cell is right next to the Guard's cell.\nThe person on cell three looks dead, must be Rubio.");
         ui.choice1.setText("Next one");
         ui.choice2.setText("");
 
         game.nextPosition1 = "recordsFourth";
         game.nextPosition2 = "";
     }
+
+
     public void recordsFourth(){
-        ui.mainTextArea.setText("'Cornelio No-Last-Name'\n'Crimes: Dark sorcery with intent of harming.'\n'Cursing the town with witchcraft.'\n\nSentence: Death. Cell number four.\nThe iron bars of that cell melted, leaving the cell open..");
+        ui.mainTextArea.setText("'Cornelio No-Last-Name'\n'Crimes: Dark sorcery with intent of harming.'\n'Cursing the town with witchcraft.'\n\nSentence: Death. Cell number four.\nThe iron bars of that cell were melted off, leaving the cell open..");
         ui.choice1.setText("Cell five");
         ui.choice2.setText("");
 
@@ -1322,15 +1473,15 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void recordsFifth(){
-        ui.mainTextArea.setText("'Tom River'\n'Crimes: Letting a dangerous prisoner escape while on guard'\n'Sentence: 1 month on cell number five.'\n\nThis is the cell where the guard should be at.\nBut it's empty, the guard is on the cell number 6");
-        ui.choice1.setText("Cell number six");
+        ui.mainTextArea.setText("'Tom River'\n'Crimes: Letting a dangerous prisoner escape while on guard'\n'Sentence: 1 month on cell number five.'\n\nThis is the cell where the guard should be at.\nBut it's empty, the prisoner you talked with \nis on the cell number 6");
+        ui.choice1.setText("Records Cell 6");
         ui.choice2.setText("");
 
         game.nextPosition1 = "recordsSixth";
         game.nextPosition2 = "";
     }
     public void recordsSixth(){
-        ui.mainTextArea.setText("'Jonah 'The builder''\n'Crimes: Murder by strangulation of 3 villagers.'\n'Killing for no reason, just madness.'\n'Sentence: Death. Cell number six.'\n\n'In cell number six, the man that said was the guard, smiles at you.'");
+        ui.mainTextArea.setText("'Jonah 'The builder' '\n'Crimes: Murder by strangulation of 3 villagers.'\n'Killing for no reason, madness.'\n'Sentence: Death. Cell number six.'\n\n'In cell number six, the man that said was the guard, smiles at you.'");
         ui.choice1.setText("Talk to him");
         ui.choice2.setText("");
 
@@ -1338,132 +1489,1104 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void talkPossibleMurderer(){
-        ui.mainTextArea.setText("'Hey'- you go back to the prisoner.\n'What was your name again?' -You ask\n'My name is Tom, last name is River'- He answers smiling.");
-        ui.choice1.setText("What happened here?");
-        ui.choice2.setText("Where's everyone?");
-
-        game.nextPosition1 = "";
-        game.nextPosition2 = "";
-    }
-    public void freePrisoner(){
-        ui.mainTextArea.setText("");
-        ui.choice1.setText("Wake up!");
-        ui.choice2.setText("What bug?");
-
-        game.nextPosition1 = "goBackHome";
-        game.nextPosition2 = "";
-    }
-    public void freePrisoner(){
-        ui.mainTextArea.setText("");
-        ui.choice1.setText("Wake up!");
-        ui.choice2.setText("What bug?");
-
-        game.nextPosition1 = "goBackHome";
-        game.nextPosition2 = "";
-    }
-    public void talkPossibleMurderer(){
-        ui.mainTextArea.setText("'Hey'- you go back to the prisoner.\n'What was your name again?' -You ask.\n'My name is Tom, last name is River'- He answers smiling.");
+        ui.mainTextArea.setText("'Hey'- you go back to the prisoner.\n'What was your name again?' -You ask\n\n\n'My name is Tom, last name is River'- He answers smiling.");
         ui.choice1.setText("What happened here?");
         ui.choice2.setText("Where's everyone?");
 
         game.nextPosition1 = "happenedVillage";
-        game.nextPosition2 = "wheresVillagePPL";
+        game.nextPosition2 = "";
     }
     public void happenedVillage(){
-        ui.mainTextArea.setText("'You mean the town?'\n'After the wizard escaped, people started seeing a creature'\n'co");
-        ui.choice1.setText("Wake up!");
-        ui.choice2.setText("What bug?");
+        ui.mainTextArea.setText("'You mean the town?'\n'After the wizard escaped, a couple of kids reported a creature'\n'was living in the town's well'\n\n'The village's guards went there to investigate, but never came back.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
 
-        game.nextPosition1 = "goBackHome";
+        game.nextPosition1 = "creatureInWell";
         game.nextPosition2 = "";
     }
-    public void leavePrisoner(){
-        ui.mainTextArea.setText("");
-        ui.choice1.setText("Wake up!");
-        ui.choice2.setText("What bug?");
 
-        game.nextPosition1 = "goBackHome";
+    public void creatureInWell(){
+        ui.mainTextArea.setText("'People say, the wizard called the creature to curse the town.'\n\n'A few nights after my colleagues disappeared, people started to'\n'get abducted in their sleep.'\n\n'My guess is the creature took them.'");
+        ui.choice1.setText("A creature?");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "whatCreaturePrison";
         game.nextPosition2 = "";
     }
-    public void boyWakesUp(){
-        ui.mainTextArea.setText("");
-        ui.choice1.setText("Wake up!");
-        ui.choice2.setText("What bug?");
+    public void whatCreaturePrison(){
+        ui.mainTextArea.setText("'The kids described it as a giant bug, of many legs.'\n'Sounds like a centipede to me.'\n\n'Hey, are you gonna let me out?'- The prisoner asks.");
+        ui.choice1.setText("One more question");
+        ui.choice2.setText("No");
 
-        game.nextPosition1 = "goBackHome";
+        game.nextPosition1 = "questionPrisonGuy";
         game.nextPosition2 = "";
     }
-    public void boyWakesUp(){
-        ui.mainTextArea.setText("");
-        ui.choice1.setText("Wake up!");
-        ui.choice2.setText("What bug?");
+    public void questionPrisonGuy(){
+        ui.mainTextArea.setText("'Why are you on this cell?'\n'The records say you should be on the cell number 5.'\n\n'Where's the murderer?'-You assault him with questions.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
 
-        game.nextPosition1 = "goBackHome";
+        game.nextPosition1 = "prisonGuyAnswers";
         game.nextPosition2 = "";
     }
-    public void boyWakesUp(){
-        ui.mainTextArea.setText("");
-        ui.choice1.setText("Wake up!");
-        ui.choice2.setText("What bug?");
 
-        game.nextPosition1 = "goBackHome";
+    public void prisonGuyAnswers(){
+        ui.mainTextArea.setText("The prisoner looks offended.\n 'Do you think I'm a murderer, kid?'\n'I'm the guard of this prison, the idiot that replaced me'\n'obviously wrote my name on the wrong record.'");
+        ui.choice1.setText("Ok");
+        ui.choice2.setText("No");
+
+        game.nextPosition1 = "freePrisoner";
+        game.nextPosition2 = "leavePrisoner";
+    }
+
+    public void freePrisoner(){
+        ui.mainTextArea.setText("With a swing of your sword, you break the chain\nthat holds the cell closed.\n\nTom comes out of the cell smiling.");
+        ui.choice1.setText("To the well");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "fakeTomsFree";
         game.nextPosition2 = "";
     }
-    public void boyWakesUp(){
-        ui.mainTextArea.setText("");
-        ui.choice1.setText("Wake up!");
-        ui.choice2.setText("What bug?");
+    public void fakeTomsFree(){
+        ui.mainTextArea.setText("'Thank you for freeing me.'- Tom smiles and looks at you\nsideways.\n'Hahahahaha, you freed me, hahaha'- Tom can't stop laughing.\n\n'I can't believe you freed me.... HAHAHAHAHA'");
+        ui.choice1.setText("Tom?");
+        ui.choice2.setText("Jonah?");
 
-        game.nextPosition1 = "goBackHome";
+        game.nextPosition1 = "notTomJonah";
         game.nextPosition2 = "";
     }
-    public void boyWakesUp(){
-        ui.mainTextArea.setText("");
-        ui.choice1.setText("Wake up!");
-        ui.choice2.setText("What bug?");
+    public void notTomJonah(){
+        ui.mainTextArea.setText("'No, my name is not Tom, kid.'-\nJonah 'The builder', grabs your neck, and chokes you.\n\nYour sword falls to the ground.");
+        ui.choice1.setText("Punch");
+        ui.choice2.setText("Kick");
 
-        game.nextPosition1 = "goBackHome";
+        game.nextPosition1 = "noEffectJonah";
         game.nextPosition2 = "";
     }
-//    public void enemyAtBlinds(){
-//        ui.mainTextArea.setText("");
-//        ui.choice1.setText("goBackHome");
-//        ui.choice2.setText("");
+    public void noEffectJonah(){
+        ui.mainTextArea.setText("That didn't work, try again.\nQuick, you are asphyxiating.\n\nYour face is turning blue.");
+//        Just for testing battle
+//        player.currentWeapon = new Weapon_CursedBlade();
+//        ui.weaponLabelName.setText(player.currentWeapon.name);
+        ui.choice1.setText("Punch");
+        ui.choice2.setText("Kick");
+
+        game.nextPosition1 = "yesEffectJonah";
+        game.nextPosition2 = "";
+    }
+    public void yesEffectJonah(){
+        ui.mainTextArea.setText("This time it works.\n\nYou free yourself from the hands of the murderer.\nIn the jail, Jonah stares at you with a crazed look and beady eyes.\n\nYou pick up your sword.");
+        monster = new Monster_JonahTheMurderer();
+        positionAfterBattle = "defeatJonahBuilder";
+        ui.choice1.setText("Fight");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "fight";
+        game.nextPosition2 = "";
+    }
+    public void defeatJonahBuilder(){
+        ui.mainTextArea.setText("You almost become another victim of this serial\nmurderer.\n\nLuckily, you defeated him with help of your cursed blade.");
+        ui.choice1.setText("leave");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "leaveVillageHall";
+        game.nextPosition2 = "";
+    }
+
+    public void leaveVillageHall(){
+        ui.mainTextArea.setText("You run from the jail.\n\nIt's midnight outside, so you pay another visit\nto the kid in the candle lit house,\nbefore going to the well.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "sinisterAfVillage";
+        game.nextPosition2 = "";
+    }
+    public void sinisterAfVillage(){
+        ui.mainTextArea.setText("The town looks even more sinister now\nthat you know only two persons remain on it\nand both of you are kids.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "wakeUpBoyTar";
+        game.nextPosition2 = "";
+    }
+    public void wakeUpBoyTar(){
+        ui.mainTextArea.setText("You enter the boy's house.\nHe woke up, and looks at you terrified.\n\nThe boy is covered in black tar, he vomited on himself.");
+        ui.choice1.setText("Hey");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "heyBoyTar";
+        game.nextPosition2 = "";
+    }
+    public void heyBoyTar(){
+        ui.mainTextArea.setText("He has tears on his eyes.\nHe was expecting the creature, when the door opened,\n and he's relieved its you.");
+        ui.choice1.setText("How you feeling?");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "boyTarFeeling";
+        game.nextPosition2 = "";
+    }
+
+
+    public void boyTarFeeling(){
+        ui.mainTextArea.setText("'I'm fine'- The boy responds.\n'Who are you?'");
+        ui.choice1.setText("I'm a friend");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "boyTarMission";
+        game.nextPosition2 = "";
+    }
+    public void boyTarMission(){
+        ui.mainTextArea.setText("'Can you help me find my parents?'\n'The bug took them'-\nYou can relate to the boy, your own Dad was\ntaken away by monsters.");
+        ui.choice1.setText("What do you know?");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "knowTarBoy";
+        game.nextPosition2 = "";
+    }
+    public void knowTarBoy(){
+        ui.mainTextArea.setText("You ask the boy what he knows about the 'bug'\n\n\n'Me and my friend, Kyle, were playing in the fields'\n'We were kicking a ball, and it fell on the well.'\n'When we looked down on it, to find our ball, we saw it'");
+        ui.choice1.setText("Saw what?");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "sawTarBoy";
+        game.nextPosition2 = "";
+    }
+    public void sawTarBoy(){
+        ui.mainTextArea.setText("'A bug head, with a thousand black eyes'\n'and a long body, like a snake, with hundreds of legs'\n'that kept scratching our ball, until it exploded.'\n'then, it started climbing up, to us.'-\n\nTwo lines of black fluid fall down from his nose holes.");
+        ui.choice1.setText("What's that?");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "whatsTarInBoy";
+        game.nextPosition2 = "";
+    }
+
+    public void whatsTarInBoy(){
+        ui.mainTextArea.setText("'Today, I was reading in my room, when the bug came thru the window.'\n'It bit me in the face, and injected this disgusting stuff'\n'It paralyzed me, and now It keeps coming out of my\nears, mouth and nose.'\n\nThe viscous substance smells musty and sweet.");
+        ui.choice1.setText("Clean it off");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "cleanTarBoy";
+        game.nextPosition2 = "";
+    }
+
+    public void cleanTarBoy(){
+        ui.mainTextArea.setText("'Whatever it is, the faster you take it out'\n'the better.'\n\n\n'I'm going to find your family, wait here.'- You say");
+        ui.choice1.setText("To the well");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "tarBoyBye";
+        game.nextPosition2 = "";
+    }
+    public void tarBoyBye(){
+        ui.mainTextArea.setText("'Thank you, stranger'- The boy is about to cry with gratitude.\n\n\nYou feel bad leaving him behind, he doesn't stand a chance\nagainst any monster, if any entered the house again.\nBut taking him to the well, would be worse.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "centipedeWell";
+        game.nextPosition2 = "";
+    }
+    public void centipedeWell(){
+        ui.mainTextArea.setText("You get to the village's well.\n\nIt's so deep and dark.\n\nOn the bottom, a creature of nightmares awaits you.");
+        ui.choice1.setText("go in");
+        ui.choice2.setText("stay out");
+
+        game.nextPosition1 = "goinCentipedeWell";
+        game.nextPosition2 = "";
+    }
+    public void goinCentipedeWell(){
+        ui.mainTextArea.setText("There's a ladder leading down\nyou climb on it, and descend into the darkness.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "intoTheDarkness";
+        game.nextPosition2 = "";
+    }
+    public void intoTheDarkness(){
+        ui.mainTextArea.setText("You reach the bottom, and step on a puddle. The floor is muddy.\n\nIn front of the ladder, there's an entrance to a cave.");
+        ui.choice1.setText("Let's do this");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "inCentipedeCave";
+        game.nextPosition2 = "";
+    }
+    public void inCentipedeCave(){
+        ui.mainTextArea.setText("You step into the cave. You can't see anything.\n\n\nAfter walking for a while, grabbing the muddy wall for guidance.\nYou feel with your hands the cold touch of metal.\nThe cave walls aren't made of soil anymore.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "metalCentipedeCave";
+        game.nextPosition2 = "";
+    }
+
+    public void metalCentipedeCave(){
+        ui.mainTextArea.setText("A dim green light comes out of the cave walls.\nAs if energy was flowing, under the metallic structure.\n\nYou observe the roof of the cave, is full of metal cables\nand small blinking red lights. ");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "electricCave";
+        game.nextPosition2 = "";
+    }
+    public void electricCave(){
+        ui.mainTextArea.setText("You stumple upon a sign made of wood\nstuck on the floor.\n\nIt reads: 'Beware of the outerdimensional creature'.\nWhatever that means, you ignore it.\nYou continue walking.");
+        ui.choice1.setText("What's that noise?");
+        ui.choice2.setText("What's up ahead?");
+
+        game.nextPosition1 = "hummingCave";
+        game.nextPosition2 = "";
+    }
+    public void hummingCave(){
+        ui.mainTextArea.setText("You've been hearing a humming noise for a while.\n\nIt's becoming louder, as you go deeper in.\nLike a vibration inside the walls.");
+        ui.choice1.setText("Check origin");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "originHumming";
+        game.nextPosition2 = "";
+    }
+    public void originHumming(){
+        ui.mainTextArea.setText("Up ahead, there's a room, with several cylinders filled with\nblack liquid.\n\nThe cylinders are taller than you, and made of glass.\nThey are transparent, so you can see the liquid inside flowing.\n\nThe humming sound comes from them.");
+        ui.choice1.setText("Tap on glass");
+        ui.choice2.setText("Place ear on glass");
+
+        game.nextPosition1 = "tapGlassCylinder";
+        game.nextPosition2 = "";
+    }
+    public void tapGlassCylinder(){
+        ui.mainTextArea.setText("You tap on the glass.\n\n\nBut nothing happens.");
+        ui.choice1.setText("WHAT THE...?");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "tapBackCylinder";
+        game.nextPosition2 = "";
+    }
+    public void tapBackCylinder(){
+        ui.mainTextArea.setText("Suddenly, a hand appears from the dark liquid and presses its palm where you tapped the glass!!!");
+        ui.choice1.setText("WHAT THE...?");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "personCylinder";
+        game.nextPosition2 = "";
+    }
+    public void personCylinder(){
+        ui.mainTextArea.setText("The cylinders... are filled with people.\n\nA huge metal cable goes from the cylinder's top, to the roof of the cave.\nYou are about to break the glass, but you hear someone coming.");
+        ui.choice1.setText("Hide");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "centipodeAppears";
+        game.nextPosition2 = "";
+    }
+
+    public void centipodeAppears(){
+        ui.mainTextArea.setText("You crouch behind one of the glass tubes\n\n\nTiki, tiki, tiki, tiki, tiki. The sound of a hundred little legs\nwalking on the hard floor,sends shivers down yous spine.\n\nNot far from you, an insect longer than a snake crawls around a \nglass tube.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "centipodeTalks";
+        game.nextPosition2 = "";
+    }
+    public void centipodeTalks(){
+        ui.mainTextArea.setText("'Tsk, tsk'\n'I don't quite have enough power'\n\n'This might be a problem.'- The bug... talks...\n\n'Tsk, tsk'- It makes a noise with its bug mouth\nIt's definitely a centipede, with a dark green body, and brown legs.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "centipodesPlan";
+        game.nextPosition2 = "";
+    }
+    public void centipodesPlan(){
+        ui.mainTextArea.setText("'Tsk, tsk'\n'I'll have to wait longer for the machine to be charged'\n\n'Perhaps I'll need more monkeys'-\n\n\nThe insect is getting closer to where you are.");
+        ui.choice1.setText("Run");
+        ui.choice2.setText("Stay hidden");
+
+        game.nextPosition1 = "makeSoundCentipode";
+        game.nextPosition2 = "";
+    }
+    public void makeSoundCentipode(){
+        ui.mainTextArea.setText("You doubt for a second on what to do.\nYou are scared, and by accident, your foot slips and\n makes a sound.\n\nThe centipede jumps on you, and surrounds you with its hundred\ndisgusting legs.");
+        ui.choice1.setText("Aaaagh");
+        ui.choice2.setText("Get off me!");
+
+        game.nextPosition1 = "injectCentipode";
+        game.nextPosition2 = "";
+    }
+    public void injectCentipode(){
+        ui.mainTextArea.setText("The bug, uses its mandible to inject venom on your cheek.\n\nIt stings so much, your vision gets blurry.\nYou are able to push him off, however.");
+        ui.choice1.setText("Run");
+        ui.choice2.setText("Fight");
+
+        game.nextPosition1 = "runCentipode";
+        game.nextPosition2 = "";
+    }
+    public void runCentipode(){
+        ui.mainTextArea.setText("It's no use, your muscles are becoming stiff as bones.\n\nYou've been paralyzed by the creature, that now looks at you silently.");
+        ui.choice1.setText("Unngh");
+        ui.choice2.setText("Ammngh");
+
+        game.nextPosition1 = "paralyzedCentipode";
+        game.nextPosition2 = "";
+    }
+
+    public void paralyzedCentipode(){
+        ui.mainTextArea.setText("'Tsk, tsk'\n'It's my lucky day, I didn't even have go catch this monkey'\n'This smelly shizno thought it could defeat the Great Centi-Podeh, on its own.'\n\n\n'Hahahaha, tsk, tsk, tsk'");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "passOutCenti";
+        game.nextPosition2 = "";
+    }
+    public void passOutCenti(){
+        ui.mainTextArea.setText("'Don't try to resist, monkey'\n\n'I need you alive for my machine.'\n\nYou watch the creature prepare an empty glass tube and you pass out.\n.................................");
+        ui.choice1.setText("Fuck");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "inTubeCenti";
+        game.nextPosition2 = "";
+    }
+    public void inTubeCenti(){
+        ui.mainTextArea.setText(".........................................................\nIt's so dark, your eyes are open, but see nothing at all.\n.........................................................\n\n.........................................................\nIt smells musty and sweet, and feels like you are floating.\n.........................................................");
+        ui.choice1.setText("Am I dead?");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "amDeadCenti";
+        game.nextPosition2 = "";
+    }
+    public void amDeadCenti(){
+        ui.mainTextArea.setText(".........................................................\nIt sure looks like you are dead, it's so calm and relaxing.\nYou feel as if nothing matters anymore, and\nyou can finally rest.\n.........................................................");
+        ui.choice1.setText("Relax");
+        ui.choice2.setText("No!");
+
+        game.nextPosition1 = "noRelaxCenti";
+        game.nextPosition2 = "";
+    }
+    public void noRelaxCenti(){
+        ui.mainTextArea.setText(".........................................................\nBut Dad... and the others.....\nYou didn't find them, they probably need you to rescue them.\n\nYou have to save everyone.\n.........................................................");
+        ui.choice1.setText("Punch darkness");
+        ui.choice2.setText("Kick darkness");
+
+        game.nextPosition1 = "punchDarkness";
+        game.nextPosition2 = "";
+    }
+    public void punchDarkness(){
+        ui.mainTextArea.setText("You punch the darkness in front of you.\nBut you feel as if there's nothing there.");
+        ui.choice1.setText("Punch again");
+        ui.choice2.setText("Give up");
+
+        game.nextPosition1 = "punchTwoDark";
+        game.nextPosition2 = "";
+    }
+
+    public void punchTwoDark(){
+        ui.mainTextArea.setText("You try again, this time you try harder.\nBut you are just floating in nothingness.\n\nThere's nothing in front of you, but darkness.");
+        ui.choice1.setText("Punch again");
+        ui.choice2.setText("Give up");
+
+        game.nextPosition1 = "punchThreeDark";
+        game.nextPosition2 = "";
+    }
+    public void punchThreeDark(){
+        ui.mainTextArea.setText("Crack!\n\nYou reached something with your fist this time.\n\nThere's a surface in front of you, and you cracked it.");
+        ui.choice1.setText("Punch and kick");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "punchKickGlass";
+        game.nextPosition2 = "";
+    }
+
+    public void punchKickGlass(){
+        ui.mainTextArea.setText("You hit the surface like crazy, and shatter it.\n\nThe glass tube you were trapped in, breaks, and out comes\nthe dark liquid you were floating in.\nYou fall to the floor soaked in it.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "omaebaWoShindeiro";
+        game.nextPosition2 = "";
+    }
+
+    public void omaebaWoShindeiro(){
+        ui.mainTextArea.setText("You stand up, and look over to the surprised bug\nwho was meddling with cables on the opposite side of the room.\n\nThe monster screeches and says 'Don't fight it anymore, monkey,\nyou can't kill me, tsk'-\n\nYou look at Centi-Podeh, with your eyes shinning red with rage\nand answer:\n'Kill you?...'-");
+        ui.choice1.setText("You...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "youAlreadyDead";
+        game.nextPosition2 = "";
+    }
+
+    public void youAlreadyDead(){
+        ui.mainTextArea.setText("'You are... already dead'-\n\n\nYou feel your blood rushing, the zombie virus must\n be giving you extra power.\n\n\nThe outerdimensional demon, Centi-Podeh, jumps to attack you!");
+        monster = new Monster_SmCentipodeh();
+        positionAfterBattle = "defeatSmallCenti";
+        ui.choice1.setText("Destroy");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "fight";
+        game.nextPosition2 = "";
+    }
+    public void defeatSmallCenti(){
+        ui.mainTextArea.setText("You cut Centi-Podeh in half.\n\nIt's headless body twists in all directions until it's stops moving.\nThe head, with a thousand eyes, and sharp mandibles\nstarts laughing.");
+        ui.choice1.setText("What?");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "centiReturns";
+        game.nextPosition2 = "";
+    }
+    public void centiReturns(){
+        ui.mainTextArea.setText("'You think you have defeated me?'-\nThe centipede's head faces you.\n\n'Tsk, I come from a place where the weakest creature, is'\n'a million times stronger than you, monkeys.'");
+        ui.choice1.setText("What place is this?");
+        ui.choice2.setText("How u got here?");
+
+        game.nextPosition1 = "centiOrigin";
+        game.nextPosition2 = "";
+    }
+
+    public void centiOrigin(){
+        ui.mainTextArea.setText("'A place you can't get into, without the right technology'\n'a brutal parallel dimension, where my species rules.'\n'Our technology and knowledge is light years ahead of yours.'\n'You dirty, smelly shizno.");
+        ui.choice1.setText("Why are u here?");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "whyHereCenti";
+        game.nextPosition2 = "";
+    }
+    public void whyHereCenti(){
+        ui.mainTextArea.setText("'Tsk, tsk, tsk. You ask too much'\n'A monkey called Cornelio, travelled to my dimension, to steal some of \nour technology.'\n'I snuck into his travelling machine just before\nhe teleported back here.'-");
+        ui.choice1.setText("So you are trapped?");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "trapCenti";
+        game.nextPosition2 = "";
+    }
+    public void trapCenti(){
+        ui.mainTextArea.setText("'I am, but not for long.'\n'Cornelio ran away and left his machine here.'\n'Once I power it up, I'll go back, and tell my people about this place.'\n\n'And then we'll come back with an army, to enslave all shiznos, tsk, tsk.'");
+        ui.choice1.setText("You have no body");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "noBodyCenti";
+        game.nextPosition2 = "";
+    }
+    public void noBodyCenti(){
+        ui.mainTextArea.setText("'I know, but I'm far from dead, tsk, tsk, tsk.'-\n\nCenti-Podeh breaks the glass tube next to him, with its mandible\na middle aged lady falls from the tube, and the monster eats her alive\nre-growing its body, and becoming bigger than before.");
+        ui.choice1.setText("Attack");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "centiEatsGrows";
+        game.nextPosition2 = "";
+    }
+    public void centiEatsGrows(){
+        ui.mainTextArea.setText("You swing your blade at him\nbut he leaps forward to another glass cylinder, and repeats meal\neating another person from the village.\n\nYou ran after him, but he keeps going from tube to tube,\n eating more people\nand growing larger and larger.");
+        ui.choice1.setText("Attack");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "giantCenti";
+        game.nextPosition2 = "";
+    }
+    public void giantCenti(){
+        ui.mainTextArea.setText("'Tsk, tsk, tsk. You should have left when you had the chance.'\n\n'You are in trouble now.'-the monster says, laughing.\n\nAfter breaking all the glass tubes in the room,\nthe centipede has grown as big as a horse.");
+        ui.choice1.setText("Fight");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "fightGiantCenti";
+        game.nextPosition2 = "";
+    }
+    public void fightGiantCenti(){
+        player.hp -=15;
+        ui.hpLabelNumber.setText(""+player.hp);
+        ui.mainTextArea.setText("You try to stab him, but you aren't strong enough\nto penetrate his shell.\n\nHe stings you back with his mandible, this time it hurts much more.\n\nYou lose 15 hp.");
+        ui.choice1.setText("Aaaah!");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "zombieRage";
+        game.nextPosition2 = "";
+    }
+    public void zombieRage(){
+        ui.mainTextArea.setText("You've had enough of this jerk\nyou feel dizzy because of the poisonous stung\nbut you've had enough.\n\nSomething triggers the zombie virus within you, to unleash\nto its fullest potential.\nAnd you start shaking, overwhelmed by this power.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "zombieRageAttack";
+        game.nextPosition2 = "";
+    }
+    public void zombieRageAttack(){
+        ui.mainTextArea.setText("'Tsk, tsk, are you alright, shizno?'- Centi-Podeh curves his body, ready to attack again.\n\nBut you can't talk in words anymore, you've gone full zombie mode.\nYou foam like a rabid wolf and bark 'BLEARGH!!'");
+        player.hp = 150;
+        ui.hpLabelNumber.setText(""+player.hp);
+        player.currentWeapon = new Weapon_ZombieRage();
+        positionAfterBattle = "cantStopCenti";
+        monster = new Monster_GiantCentipodeh();
+        ui.choice1.setText("Kill");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "fight";
+        game.nextPosition2 = "";
+    }
+//    defeat monster, come down from rage, investigate lab and find exoskeleton, find notes about prof Cornelio and you ask villagers about dad
+//    somehow get a lead to him somewhere else in kingdom, elaborate from there
 //
-//        game.nextPosition1 = "goBackHome";
+//
+//    find and play naruto fight music
+//    find and play labyrinth ost for labyrinth sequence
+//    create a function that is max health that restores the health of the player
+//    create a level up function, a level variable and a system to reach it, such as xp
+//
+//
+//
+//
+//
+//
+
+    public void cantStopCenti(){
+        ui.mainTextArea.setText("Centi-Podeh, the monster from another dimension\nscreams as your blade cuts thru.\n\n'Tsk, tsk, you can't defeat me, Impossible!!!'-");
+        ui.choice1.setText("Special Attack");
+        ui.choice2.setText("Attack");
+
+        game.nextPosition1 = "specialAttackCenti";
+        game.nextPosition2 = "";
+    }
+    public void specialAttackCenti(){
+        ui.mainTextArea.setText("Your blade glows dark light, channeling your mutant energy\nyour hair turns white, and your teeth grow sharp, like a shark.\n\nYou kick Centi-Podeh, up in the air, and slice him with your blade\nfifty times at the speed of light.\n'AAAAAAH'- Your energy turns explosive, and with a final slash\nyou blow Centi-Podeh up, covering the room with bug.");
+        ui.choice1.setText("ewww...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "exhaustedBeeping";
+        game.nextPosition2 = "";
+    }
+    public void exhaustedBeeping(){
+        ui.mainTextArea.setText("You sit on the floor, exhausted\nto rest for a bit.\n\nOnly the occasional beeping of the electronics in the walls\ninterrupt the silence in the dimly lit cave.");
+        player.hp = 200;
+        player.currentWeapon = new Weapon_CursedBlade();
+        ui.hpLabelNumber.setText(""+player.hp);
+        ui.choice1.setText("Explore cave");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "backNormalCenti";
+        game.nextPosition2 = "";
+    }
+    public void backNormalCenti(){
+        ui.mainTextArea.setText("Your hair returns to its natural color\nand your teeth aren't sharp anymore.\n\nWhatever it was that turned you into a monster has receded.\nYou stand up and check out your strange surroundings.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "roomCentiDestroy";
+        game.nextPosition2 = "";
+    }
+
+    public void roomCentiDestroy(){
+        ui.mainTextArea.setText("All the glass tubes in this room are destroyed\nthere's puddles of black and blue liquid on the floor.\n\nSome of the strange artifacts in the walls of the cave were\ndestroyed during your battle, their torn cables spit sparks of light.");
+        ui.choice1.setText("Go next room");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "roomAfterCenti";
+        game.nextPosition2 = "";
+    }
+    public void roomAfterCenti(){
+        ui.mainTextArea.setText("Going deeper in the cave you find another room\nwith identical artifacts in its walls, \nbeeping and blinking red and blue lights.\n\nThere's a lot of glass tubes here.");
+        ui.choice1.setText("Break them");
+        ui.choice2.setText("Continue looking");
+
+        game.nextPosition1 = "freeVillagersBreak";
+        game.nextPosition2 = "freeVillagersPush";
+    }
+
+
+    public void freeVillagersBreak(){
+        ui.mainTextArea.setText("You start smashing the glass tubes with your blade\nand one by one break open, freeing the trapped villagers from inside\ncovered in black tar.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "villagersFreed";
+        game.nextPosition2 = "";
+    }
+    public void freeVillagersPush(){
+        ui.mainTextArea.setText("All the cables connected to the glass cylinders\njoin in a cube artifact, that's constantly buzzing.\n\nYou approach the cube, stuck on the wall, and find a square on its surface\nlit up with green light, that can be pressed.");
+        ui.choice1.setText("press");
+        ui.choice2.setText("don't press");
+
+        game.nextPosition1 = "pushButtonCave";
+        game.nextPosition2 = "";
+    }
+    public void pushButtonCave(){
+        ui.mainTextArea.setText("You press the button, and the cave starts humming.\n\nSome kind of magic interconnects the cave with the artifacts within it.\nAll artifacts on the walls lit up, and start making sounds.\nThe glass cylinders open up, and the villagers within drop from inside.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "villagersFreed";
+        game.nextPosition2 = "";
+    }
+    public void villagersFreed(){
+        ui.mainTextArea.setText("The villagers start regaining consciousness.\nAfter looking around to each other, they quickly begun\n understanding what had happened.\n\n'This small kid is our hero!!'- ");
+        ui.choice1.setText("No problem");
+        ui.choice2.setText("saul good man ;P");
+
+        game.nextPosition1 = "saulGoodMan";
+        game.nextPosition2 = "saulGoodMan";
+    }
+    public void saulGoodMan(){
+        ui.mainTextArea.setText("You lead women, men and children out of the cave and up the ladder.\nAnd instruct them to return to their homes.\n\nSome villagers ask you about their missing friends and family\nand you promise them you'll continue looking for them in the cave,\nfeeling guilty, knowing some of them were devoured by the beast.");
+        ui.choice1.setText("Back to investigate");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "back2Investigate";
+        game.nextPosition2 = "";
+    }
+    public void back2Investigate(){
+        ui.mainTextArea.setText("The cave hums as if it was alive.\n\nThere's another dimly lit hallway coming out of the room you are\n currently in.\n\nYou follow this new path.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "investigateHallway";
+        game.nextPosition2 = "";
+    }
+
+    public void investigateHallway(){
+        ui.mainTextArea.setText("The hallway is full of cables, lights and metal boxes.\nIt's curved, and it twists to the right.\nThere's some light coming from around there.");
+        ui.choice1.setText("To light");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "findPrice";
+        game.nextPosition2 = "";
+    }
+    public void findPrice(){
+        ui.mainTextArea.setText("You get to another room.\nIn this one, the cables in the walls, shine light blue.\nAll leading to a black mirror, on the wall opposite to the entrance.\n\n\nWhen you step in, the mirror starts shinning, and images appear on it.");
+        ui.choice1.setText("Get closer");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "closerToTv";
+        game.nextPosition2 = "";
+    }
+
+    public void closerToTv(){
+        ui.mainTextArea.setText("A short old man with glasses and a white long robe\n appears in the mirror.\n\n'Hello, kid.'-");
+        ui.choice1.setText("Hello?");
+        ui.choice2.setText("Who are you?");
+
+        game.nextPosition1 = "helloProfPipcac";
+        game.nextPosition2 = "";
+    }
+
+    public void helloProfPipcac(){
+        ui.mainTextArea.setText("'I knew you'd defeat Centi-Podeh! I'm the Professor Pipcac.'\n'The villagers knew me as Cornelio.'\n'I left a while ago, this is a recorded message from this morning.'\n\n'Anyways, I'll be back soon to talk, but first'\n'If you are looking for your friends and your father'\n'you must go look in the capital.'-");
+        ui.choice1.setText("Cornelio?!?!");
+        ui.choice2.setText("Why are they there???");
+
+        game.nextPosition1 = "cornelioIsPipcac";
+        game.nextPosition2 = "";
+    }
+
+    public void cornelioIsPipcac(){
+        ui.mainTextArea.setText("'I come from the tomorrow, the future.'\n\n'I built my lab under this village, and convinced the villagers\n I was just another country man.'\n'One day however'\n'They saw me using technology ahead of this time,\n and accused me of wizardry'\n");
+        ui.choice1.setText("The future?");
+        ui.choice2.setText("Why come here?");
+
+        game.nextPosition1 = "cornelioIsRecording";
+        game.nextPosition2 = "";
+    }
+    public void cornelioIsRecording(){
+        ui.mainTextArea.setText("'In case, you are trying to talk to me, kid'\n'I cannot answer, I made this message long before you arrived'\n'Now, continuing, the monster you fought sneaked in\nmy travelling machine, before I left its dimension.'");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "cornelioExplains";
+        game.nextPosition2 = "";
+    }
+
+    public void cornelioExplains(){
+        ui.mainTextArea.setText("'I would have dealt with him myself.'\n'But I knew, you would defeat him anyways.'\n'You see, all of this has already happened in the time I come from'\n'so I know the things that are going to happen, before they occur.'");
+        ui.choice1.setText("Uh?");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "openRewardWall";
+        game.nextPosition2 = "";
+    }
+    public void openRewardWall(){
+        ui.mainTextArea.setText("A wall of the room, starts opening, like a door.\nCornelio says:\n'Go to the capital, kid, use this to defeat the monsters there'-\nInside the secret room, that opened behind the wall\nthere's a skeleton, made of metal.");
+        ui.choice1.setText("What's this?");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "whatsExoskeleton";
+        game.nextPosition2 = "";
+    }
+
+    public void whatsExoskeleton(){
+        ui.mainTextArea.setText("'This is an electric exoskeleton, it's kind of like a magic armor.'-\nCornelio says in his recording. As if he knew you'd ask.\n'Wear it on your back, it will increase your strength and'\n'allow you to fight the worst kind of monsters.'-\n\n\nYou received 1 exoskeleton");
+        ui.choice1.setText("Take it");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "getExoskeleton";
+        game.nextPosition2 = "";
+    }
+
+    public void getExoskeleto(){
+        player.currentWeapon = new Weapon_ExoSkeleton();
+
+        ui.weaponLabelName.setText(player.currentWeapon.name);
+        ui.mainTextArea.setText("'If you want to rescue your friends, you'll have to get to the capital'\n\n'Cross, the kingdom's mountains, climb past 'ArtuhZalah', and then you'll get there'\n'In two days of walking'-");
+        ui.choice1.setText("Wait!");
+        ui.choice2.setText("Why should I go there?");
+
+        game.nextPosition1 = "cornelioOut";
+        game.nextPosition2 = "";
+    }
+
+    public void cornelioOut(){
+        ui.mainTextArea.setText("'I'll find you after you save them, and explain everything.'\n'Once you get there, you'll understand what to do.'\n\n'Now, go! You don't have much time left.'\n'You'll just have to trust me.'\n'Prof. Pipcac out'-");
+        ui.choice1.setText("Noo waait!!");
+        ui.choice2.setText("fuck, what?? wait!");
+
+        game.nextPosition1 = "mirrorOut";
+        game.nextPosition2 = "";
+    }
+
+    public void mirrorOut(){
+        ui.mainTextArea.setText("The mirror becomes black again, and reflects your image\nCornelio disappeared.\n\nCornelio reminds you of Gris, talking about your future as if they knew\nwho you were and what you were destined to do.\n");
+        ui.choice1.setText("Oh no...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "questionsForPipcac";
+        game.nextPosition2 = "";
+    }
+
+    public void questionsForPipcac(){
+        ui.mainTextArea.setText("What a strange message.\nIt didn't make any sense, why would your friends be in the capital?\nThey were attacked by monsters and escaped in the last minute\n at least you hope, dad did.");
+        ui.choice1.setText("This sucks");
+        ui.choice2.setText("I don't understand");
+
+        game.nextPosition1 = "iDontGetCorn";
+        game.nextPosition2 = "iDontGetCorn";
+    }
+
+    public void iDontGetCorn(){
+        ui.mainTextArea.setText("Everything is so confusing\n\nCornelio is definetly a wizard, what's this talk of other dimensions\n\n\nPerhaps you are going crazy, and let's not forget\nthe talking giant bug you just had to fight.");
+        ui.choice1.setText("Continue");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "continueCornelio";
+        game.nextPosition2 = "";
+    }
+
+    public void continueCornelio(){
+        ui.mainTextArea.setText("You try to move forward\nbut the exoskeleton attached to your shoulders is too heavy, and you can't carry it.\nYou don't feel any strength from wearing it either.\n\nThen, the black mirror started shinning again, and Cornelio \nappeared again, this time closer to the camera.");
+        ui.choice1.setText("Cornelio!!!");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "cornelioReappears";
+        game.nextPosition2 = "";
+    }
+
+    public void cornelioReappears(){
+        ui.mainTextArea.setText("'Haha'-Cornelio laughs.\n\n'I forgot to tell you how the machine, works.'\n'Just grab a fistful of the mud in this cave, and throw it in the'\n'small tank of water of the exoSkeleton'\n'It's located on the chest plate'");
+        ui.choice1.setText("Find tank");
+        ui.choice2.setText("Find mud");
+
+        game.nextPosition1 = "findExoTank";
+        game.nextPosition2 = "findMudExo";
+    }
+
+    public void findExoTank(){
+        ui.mainTextArea.setText("You stop wearing the ExoSkeleton and, look on its chest place for a tank.\nYou find small cylinder of clear water, just like the big ones\nwith the villagers inside.\nYou drop a bit of mud in, and the water becomes dirty, and dark.\n\nThe mix smells musty and sweet, the circuits\nin the ExoSkeleton light up, and buzz.");
+        ui.choice1.setText("It works!");
+        ui.choice2.setText("Eureka!");
+
+        game.nextPosition1 = "cornContListen";
+        game.nextPosition2 = "cornContListen";
+    }
+
+    public void findMudExo(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("Nobody");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "shatterGlassDark";
+        game.nextPosition2 = "";
+    }
+
+    public void cornContListen(){
+        ui.mainTextArea.setText("'All the machines in my lab are powered'\n'by the mud in this cave.'\n\n'It's rich in Raritarium'\n'It's because of this Raritarium mine that I built my lab here.'");
+        ui.choice1.setText("Raritarium?");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "cornEndListen";
+        game.nextPosition2 = "";
+    }
+
+    public void cornEndListen(){
+        ui.mainTextArea.setText("'So, yeah, a fistful of mud will likely power the ExoSkeleton for a year, or so.'\n'No need to put too much, kid'\n'Anyways, bye now'- Cornelio disappears for a second time.\n\n\nIf the machines were powered by mud why did Centi-Podeh use people?");
+        ui.choice1.setText("Centi-P. is an idiot");
+        ui.choice2.setText("Centi-P. is pure evil");
+
+        game.nextPosition1 = "centiIsAnIdiot";
+        game.nextPosition2 = "centiIsEvil";
+    }
+
+    public void centiIsAnIdiot(){
+        ui.mainTextArea.setText("Centi-Podeh is an idiot, the mud in the people's clothes\ngenerated the energy, not the villagers themselves.\n\nHe wondered why the machines didn't power up enough.\nIf he had just used a couple fistfuls of mud, he\ncould've gotten outta here in no time.");
+        ui.choice1.setText("To the capital!");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "capitalOmw";
+        game.nextPosition2 = "";
+    }
+
+    public void centiIsEvil(){
+        ui.mainTextArea.setText("Centi-Podeh is pure evil, the mud in the people's clothes\ngenerated the energy, not the villagers themselves.\n\nBut he still put them in the tubes.\nProbably he enjoyed harming the villagers.");
+        ui.choice1.setText("To the capital!");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "capitalOmw";
+        game.nextPosition2 = "";
+    }
+
+    public void capitalOmw(){
+        ui.mainTextArea.setText("Anyways, Centi-Podeh is dead.\nYou still got a long way to go and no time\nto waste.\n\nYou walk around the cave one last time\njust to make sure you don't miss anything.\n]nAfter not finding anything useful, you head out.");
+        ui.choice1.setText("Climb up");
+        ui.choice2.setText("Turn around");
+
+        game.nextPosition1 = "climbUpWell";
+        game.nextPosition2 = "turnFaceCave";
+    }
+
+    public void climbUpWell(){
+        ui.mainTextArea.setText("You climb fast, it's so dark\nyou can't wait to get out of this well.\n\nYou feel watched from inside the cave");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "villageHappy";
+        game.nextPosition2 = "";
+    }
+
+    public void turnFaceCave(){
+        ui.mainTextArea.setText("You turn around\ndeep in the cave, you hear something move...\nperhaps, Centi-Podeh...\n\nyou can't see nothing, the cave's entrance is pitch black.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "climbUpWall";
+        game.nextPosition2 = "";
+    }
+
+    public void villageHappy(){
+        ui.mainTextArea.setText("Outside the well, all the villagers are waiting for you.\nYou answer their questions, and they agree\nto explore further the cave in search of the missing people.\n\nYou see the kid that asked yor help rescuing his parents\nholding the hands of two adults, smiling.");
+        ui.choice1.setText("I have to go");
+        ui.choice2.setText("Bye everybody");
+
+        game.nextPosition1 = "villagerThankful";
+        game.nextPosition2 = "villagerThankful";
+    }
+
+    public void villageThankful(){
+        ui.mainTextArea.setText("One of the villagers shouts: 'Long life to the Small Hero!!!'-\n\nEveryone wishes you a long life.\n'Hoooray, for the warrior that rescued us!!!'\n'You are always welcome in our humble village'-\n\nWith that, you say goodbye to the good people,\n and continue your journey.");
+        ui.choice1.setText("Leave village");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "villageLeaving";
+        game.nextPosition2 = "";
+    }
+
+    public void villageLeaving(){
+        ui.mainTextArea.setText("You leave the urban area, and go into the woods again.\nThis time in direction of the mountains\n west of here.\n\n\nHoping you were right to trust Cornelio.");
+        ui.choice1.setText("Tropical Woods");
+        ui.choice2.setText("");
+
+        game.nextPosition1 = "tropicalWoods";
+        game.nextPosition2 = "";
+    }
+
+    public void tropicalWoods(){
+        ui.mainTextArea.setText("The more you walk, the more your surroundings change.\nYou stop seeing so many pines, and start seeing\n more palm trees some yellow trees you can't recognize.\n\nThere's a higher density of bushes too, which makes moving harder.");
+        ui.choice1.setText("Cut bushes w blade");
+        ui.choice2.setText("Jump over bushes");
+
+        game.nextPosition1 = "cutBushSelva";
+        game.nextPosition2 = "jumpBushSelva";
+    }
+
+    public void cutBushSelva(){
+        ui.mainTextArea.setText("You cut the bush, and from it\na monster that looks like a red turtle\nwith sharp teeth and spines on its back, \njumps with surprising speed and attacks you.\n\n\nWhat to do?");
+        ui.choice1.setText("Fight");
+        ui.choice2.setText("Leave alone");
+
+        game.nextPosition1 = "fight";
+        game.nextPosition2 = "";
+    }
+//
+//    public void jumpBushSelva(){
+//        ui.mainTextArea.setText("You jump over the bush, landing on top of a monster\nhiding behind it.\nYou land on the spines on top of a red turtle with sharp teeth, 'Ouch!'-.\n\n\nThe turtle attacks you, what do you do?");
+//        monster = new Monster_SavageTurtle();
+//        positionAfterBattle = "defeatFirstTurtle";
+//
+//        ui.choice1.setText("Attack");
+//        ui.choice2.setText("Leave alone");
+//
+//        game.nextPosition1 = "fight";
 //        game.nextPosition2 = "";
 //    }
-//    public void enemyAtBlinds(){
+//
+//    public void defeatFirstTurtle(){
 //        ui.mainTextArea.setText("");
-//        ui.choice1.setText("goBackHome");
+//        ui.choice1.setText("Nobody");
 //        ui.choice2.setText("");
 //
-//        game.nextPosition1 = "goBackHome";
+//        game.nextPosition1 = "shatterGlassDark";
 //        game.nextPosition2 = "";
 //    }
-//    public void enemyAtBlinds(){
+//    public void shatterGlassDark(){
 //        ui.mainTextArea.setText("");
-//        ui.choice1.setText("goBackHome");
+//        ui.choice1.setText("Nobody");
 //        ui.choice2.setText("");
 //
-//        game.nextPosition1 = "goBackHome";
+//        game.nextPosition1 = "shatterGlassDark";
 //        game.nextPosition2 = "";
 //    }
-//    public void enemyAtBlinds(){
+//
+//    public void shatterGlassDark(){
 //        ui.mainTextArea.setText("");
-//        ui.choice1.setText("goBackHome");
+//        ui.choice1.setText("Nobody");
 //        ui.choice2.setText("");
 //
-//        game.nextPosition1 = "goBackHome";
+//        game.nextPosition1 = "shatterGlassDark";
 //        game.nextPosition2 = "";
 //    }
-
-
-
-
-
-
-
+//
+//    public void shatterGlassDark(){
+//        ui.mainTextArea.setText("");
+//        ui.choice1.setText("Nobody");
+//        ui.choice2.setText("");
+//
+//        game.nextPosition1 = "shatterGlassDark";
+//        game.nextPosition2 = "";
+//    }
+//
+//    public void shatterGlassDark(){
+//        ui.mainTextArea.setText("");
+//        ui.choice1.setText("Nobody");
+//        ui.choice2.setText("");
+//
+//        game.nextPosition1 = "shatterGlassDark";
+//        game.nextPosition2 = "";
+//    }
+//
+//    public void shatterGlassDark(){
+//        ui.mainTextArea.setText("");
+//        ui.choice1.setText("Nobody");
+//        ui.choice2.setText("");
+//
+//        game.nextPosition1 = "shatterGlassDark";
+//        game.nextPosition2 = "";
+//    }
+//
+//    public void shatterGlassDark(){
+//        ui.mainTextArea.setText("");
+//        ui.choice1.setText("Nobody");
+//        ui.choice2.setText("");
+//
+//        game.nextPosition1 = "shatterGlassDark";
+//        game.nextPosition2 = "";
+//    }
+//
+//    public void shatterGlassDark(){
+//        ui.mainTextArea.setText("");
+//        ui.choice1.setText("Nobody");
+//        ui.choice2.setText("");
+//
+//        game.nextPosition1 = "shatterGlassDark";
+//        game.nextPosition2 = "";
+//    }
+//
+//    public void shatterGlassDark(){
+//        ui.mainTextArea.setText("");
+//        ui.choice1.setText("Nobody");
+//        ui.choice2.setText("");
+//
+//        game.nextPosition1 = "shatterGlassDark";
+//        game.nextPosition2 = "";
+//    }
+//
+//    public void shatterGlassDark(){
+//        ui.mainTextArea.setText("");
+//        ui.choice1.setText("Nobody");
+//        ui.choice2.setText("");
+//
+//        game.nextPosition1 = "shatterGlassDark";
+//        game.nextPosition2 = "";
+//    }
+//
+//    public void shatterGlassDark(){
+//        ui.mainTextArea.setText("");
+//        ui.choice1.setText("Nobody");
+//        ui.choice2.setText("");
+//
+//        game.nextPosition1 = "shatterGlassDark";
+//        game.nextPosition2 = "";
+//    }
+//
+//    public void shatterGlassDark(){
+//        ui.mainTextArea.setText("");
+//        ui.choice1.setText("Nobody");
+//        ui.choice2.setText("");
+//
+//        game.nextPosition1 = "shatterGlassDark";
+//        game.nextPosition2 = "";
+//    }
+//
+//    public void shatterGlassDark(){
+//        ui.mainTextArea.setText("");
+//        ui.choice1.setText("Nobody");
+//        ui.choice2.setText("");
+//
+//        game.nextPosition1 = "shatterGlassDark";
+//        game.nextPosition2 = "";
+//    }
+//
+//
+//    public void shatterGlassDark(){
+//        ui.mainTextArea.setText("");
+//        ui.choice1.setText("Nobody");
+//        ui.choice2.setText("");
+//
+//        game.nextPosition1 = "shatterGlassDark";
+//        game.nextPosition2 = "";
+//    }
+//
+//    public void shatterGlassDark(){
+//        ui.mainTextArea.setText("");
+//        ui.choice1.setText("Nobody");
+//        ui.choice2.setText("");
+//
+//        game.nextPosition1 = "shatterGlassDark";
+//        game.nextPosition2 = "";
+//    }
+//
+//    public void shatterGlassDark(){
+//        ui.mainTextArea.setText("");
+//        ui.choice1.setText("Nobody");
+//        ui.choice2.setText("");
+//
+//        game.nextPosition1 = "shatterGlassDark";
+//        game.nextPosition2 = "";
+//    }
+//
+//    public void shatterGlassDark(){
+//        ui.mainTextArea.setText("");
+//        ui.choice1.setText("Nobody");
+//        ui.choice2.setText("");
+//
+//        game.nextPosition1 = "shatterGlassDark";
+//        game.nextPosition2 = "";
+//    }
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -1540,6 +2663,8 @@ public class Story {
         ui.hpLabelNumber.setText(""+player.hp);
         player.currentWeapon = new Weapon_Knife();
         ui.weaponLabelName.setText(player.currentWeapon.name);
+        ui.choice1.setForeground(Color.ORANGE);
+        ui.choice2.setForeground(Color.BLUE);
 
         ui.choice1.setText("Fight back");
         ui.choice2.setText("Run away");
@@ -1551,23 +2676,282 @@ public class Story {
         ui.mainTextArea.setText("You grab a rock and throw it at the wolf who dodges it.\n You are badly injured \n \n Suddenly a monster appears! The wolf gets scared and escapes \n \n You do the same");
         ui.choice1.setText("Run");
         ui.choice2.setText("Run");
-
+        ui.choice1.setForeground(Color.white);
+        ui.choice2.setForeground(Color.white);
         game.nextPosition1 = "arriveVillage";
         game.nextPosition2 = "arriveVillage";
     }
+
+
+    //CHRONICLES OF THE GANGZTA
     public void arriveVillage(){
         ui.mainTextArea.setText("You run like you've never ran before. \n \n You can feel creatures moving around you in the darkness \n Far away you see a light, you go there");
         ui.choice1.setText("To the light");
         ui.choice2.setText("");
-
-        game.nextPosition1 = "arriveVillage";
-        game.nextPosition2 = "arriveVillage";
+        game.nextPosition1 = "villageStreets";
+        game.nextPosition2 = "";
     }
+
+    public void villageStreets(){
+        ui.mainTextArea.setText("You get out of the darkness\nbrushing off the last pine trees of the forest\nbefore this light.\n\nIt's a village, there's people walking on the streets.");
+        ui.choice1.setText("HELP!");
+        ui.choice2.setText("MONSTERS!");
+        game.nextPosition1 = "helpVGStreets";
+        game.nextPosition2 = "";
+    }
+
+    public void helpVGStreets(){
+        ui.mainTextArea.setText("Everybody looks at you surprised.\nAnd a few villagers start approaching you.\n\nYour wounds are severe, that caught their attention as well.\n\n'Help, my Dad, my friends...'-You try to explain, but u are exhausted.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+        game.nextPosition1 = "helpVGContinued";
+        game.nextPosition2 = "";
+    }
+    public void helpVGContinued(){
+        ui.mainTextArea.setText("'Can someone bring the mayor?'\n\n'Help, there's a wounded kid here.'- Little by little the whole town\ngathers around you.\n\nThe town's healer puts some tea patches on your wounds.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveMayor";
+        game.nextPosition2 = "";
+    }
+    public void arriveMayor(){
+        ui.mainTextArea.setText("A short but very well dressed woman arrives\nshe is very old, and moves really slow.\n\n'What happened here?'- The mayor asks.");
+        ui.choice1.setText("Monsters attacked me");
+        ui.choice2.setText("Monsters in the woods");
+        game.nextPosition1 = "monstersAttaccMe";
+        game.nextPosition2 = "";
+    }
+    public void monstersAttaccMe(){
+        ui.mainTextArea.setText("The old mayor thinks quietly for a while.\n\nShe looks around and see the villagers growing anxious.\n'It must be Cornelio, he called forth the monsters'- A villager says.");
+        ui.choice1.setText("Cornelio?");
+        ui.choice2.setText("Who is that?");
+        game.nextPosition1 = "whoCornMayor";
+        game.nextPosition2 = "";
+    }
+    public void whoCornMayor(){
+        ui.mainTextArea.setText("'Nobody,and there are no monsters'- The mayor replies.\n'This kid was clearly attacked by an animal'\n'and must have imagined it was a monster of some kind.'- She continues.\n\n\n'Cornelio is in jail, so there's nothing to fear.'");
+        ui.choice1.setText("No, it was monsters");
+        ui.choice2.setText("");
+        game.nextPosition1 = "villageDoubt";
+        game.nextPosition2 = "";
+    }
+    public void villageDoubt(){
+        ui.mainTextArea.setText("The villagers look at you in doubt, still scared, you are taken to the town hall.\nThe city council will decide what to do.\nYou walk to a tall building in the middle of the village.");
+        ui.choice1.setText("walk along");
+        ui.choice2.setText("protest");
+        game.nextPosition1 = "walkAlongVG";
+        game.nextPosition2 = "";
+    }
+    public void walkAlongVG(){
+        ui.mainTextArea.setText("You get to the building without saying a word.\nAnalyzing the situation.\n\nYou should find out who Cornelio is, and why everybody acts so weird\nwhen that name comes up.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("You arrive to the city hall, inside it looks organized,\nwith several desks lined up to the right and left of the entrance.\nThere's people writing with ink on some of these desks.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("The mayor has an office.\nYou are told you can spend the night here sleeping on a couch.\n\nJust don't wander off.");
+        ui.choice1.setText("But my family...");
+        ui.choice2.setText("My people...");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("'Yes, we know about your family'\n'The place you come from, is northeast from here.'\n'We've traded with your town, on several occasions.'\n\n\n'Tomorrow morning, we'll go rescue them.'");
+        ui.choice1.setText("Tomorrow?");
+        ui.choice2.setText("Go right now!");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("'No, kid, it isn't safe to wander to the woods at this hours.'\n'There's a cult of wizards in that forest.'\n'At night, they bring deathly creatures to the woods, thru magical portals.'-\n\nThe mayor leaves the room after saying this.");
+        ui.choice1.setText("Stand up");
+        ui.choice2.setText("Lie in office couch");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("You stand up and go to the door, you try to listen to\nwhat the villagers are saying outside.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("'Cornelio can't be responsible for this. No need to panic.'- That's the voice of the mayor.\n\nAnother male voice says: 'Cornelio just cursed our town, saying monsters\nwill come for us.'\n'I don't think the kid saying monsters attacked him is a coincidence.'\n\nA few of the voices outisde agree.");
+        ui.choice1.setText("...");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("'Well, anyways, we'll have to wait and see by ourselves.'\n'Tomorrow we should go to the kid's town and investigate.'- The mayor answers, talking softly.\n\nAnother person whispers: 'Mayor, do you think there will be survivors?.'-");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("The mayor answers: 'Let's take this conversation outside.'-\nYou can't see it, but the mayor points to her office's door.\nFully aware you are trying to eavesdrop.");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("You hear the footsteps of the mayor and the city council leave\nand the hall's door close.");
+        ui.choice1.setText("Lay down sleep");
+        ui.choice2.setText("Wander off");
+        game.nextPosition1 = "wanderOfOffice";
+        game.nextPosition2 = "";
+    }
+    public void wanderOfOffice(){
+        ui.mainTextArea.setText("You open the office's door, and get out to the room with many desks.\nThere's another door on the opposite wall.\nYou walk to it, trying not to make much sound");
+        ui.choice1.setText("Open");
+        ui.choice2.setText("Knock");
+        game.nextPosition1 = "openDoorJail";
+        game.nextPosition2 = "";
+    }
+    public void openDoorJail(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+    public void arriveVillage(){
+        ui.mainTextArea.setText("");
+        ui.choice1.setText("");
+        ui.choice2.setText("");
+        game.nextPosition1 = "arriveVillage";
+        game.nextPosition2 = "";
+    }
+
+
+
+
+
+
+
     public void runFromWolf(){
         ui.mainTextArea.setText("You make a wise choice and run \n Somehow it seems you left the wolf behind \n You are bleeding a lot, in the distance you see \n a couple of houses and a big church");
         ui.choice1.setText("Go there");
         ui.choice2.setText("");
 
+        ui.choice1.setForeground(Color.WHITE);
+        ui.choice2.setForeground(Color.WHITE);
         game.nextPosition1 = "arriveCultPicture";
         game.nextPosition2 = "";
     }
@@ -1607,6 +2991,8 @@ public class Story {
         game.nextPosition1 = "cultAccept";
         game.nextPosition2 = "cultDeny";
     }
+
+    //MAGIC AND THE CULT
     public void cultAccept(){
         ui.mainTextArea.setText("'Welcome, welcome!' \n\n 'Everybody will be pleased with your arrival.' \n 'Let me help you'- The elder walks you inside the town. \n\n The darkness that was chasing you, stayed at the town's gate \n but you wonder if there's a worse kind of darkness in this town.");
         ui.choice1.setText("...");
@@ -1723,14 +3109,14 @@ public class Story {
         game.nextPosition2 = "letsDoTheSpell";
     }
     public void letsDoTheSpell(){
-        ui.mainTextArea.setText("'Alright, I need three human skulls to make the spell'-\n You look at her very serious, what did she say?. \n \n 'But you won't get them from actual humans' \n 'There's a swamp near here. In there, human bones walk by themselves \n without a soul.'- \n\nPeople call them zombies.'");
+        ui.mainTextArea.setText("'Alright, I need three human skulls to make the spell'-\n You look at her very serious, what did she say?. \n \n 'But you won't get them from actual humans' \n 'There's a swamp near here. In there, human bones walk by themselves \n without a soul.'- \n\nSkeletons that move, cursed.'");
         ui.choice1.setText("I can't do that");
         ui.choice2.setText("I can't fight");
 
         game.nextPosition1 = "heresAWand";
         game.nextPosition2 = "";
     }    public void heresAWand(){
-        ui.mainTextArea.setText("Nonsense, I'll show you something. \n \n From a box made of metal \n she gets what looks like a  wand. \n \n The wand glows purple.\n She hands it to me!");
+        ui.mainTextArea.setText("Nonsense, I'll show you something. \n \n From a box made of metal \n she gets what looks like a wand. \n \n The wand glows purple.\n She hands it to me!");
         ui.choice1.setText("For me?");
         ui.choice2.setText("Grab it");
 
@@ -1897,7 +3283,7 @@ public class Story {
         game.nextPosition1 = "learnMoreSpells";
         game.nextPosition2 = "";
     }    public void learnMoreSpells(){
-        ui.mainTextArea.setText("'Say with me: kayu!'- The wizard yells. \n You repeat it, and your wand shoots an blue cross forward. \n\n 'This spell will cause insufferable pain to your enemies.'- \n The wizard clarifies.\n\n 'Now say: oro!'- ");
+        ui.mainTextArea.setText("'Say with me: kayu!'- The wizard yells. \n You repeat it, and your wand shoots an red cross forward. \n\n 'This spell will cause insufferable pain to your enemies.'- \n The wizard clarifies.\n\n 'Now say: oro!'- ");
         ui.choice1.setText("oro");
         ui.choice2.setText("ORO!");
 
@@ -2054,7 +3440,7 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void monolithFireExpands(){
-        ui.mainTextArea.setText("You shoot a blast to it. \n Nothing happens. \n\n\nThe flames are getting bigger and tuned hotter. \n The cult members stay silent, hypnotized by it.");
+        ui.mainTextArea.setText("You shoot a blast to it. \n Nothing happens. \n\n\nThe flames are getting bigger and turned hotter. \n The cult members stay silent, hypnotized by it.");
         ui.choice1.setText("Attack them");
         ui.choice2.setText("Flee without girl");
 
@@ -2162,8 +3548,8 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void passOutMonkeyShed(){
-        ui.mainTextArea.setText("You lay on the bed, your chest about to burst. \n \nThe demonic creature that came out of the rock hunts your thoughts. \n\n All you can think about is the sound it made,\n chewing up the cult members bodies. \n\n The terror makes you pass out. ");
-        ui.choice1.setText("Oh man... Zzzz");
+        ui.mainTextArea.setText("You lay on the bed, your chest about to burst. \n \nThe creature that came out of the rock hunts your thoughts. \n\n All you can think about is the sound it made,\n chewing up the cult members bodies. \n\n The terror makes you pass out. ");
+        ui.choice1.setText("Oh... Zzzz");
         ui.choice2.setText("");
 
         game.nextPosition1 = "wakeUpMonkeyShed";
@@ -2178,7 +3564,15 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void drinkTeaAndLeave(){
-        ui.mainTextArea.setText("Who wrote this note? \n\n Whoever it was, also cured most of your wounds. \n\n And why did this mysterious person leave you here alone? \n\n You have a sip of the green tea on top of the table.");
+        ui.mainTextArea.setText("Who wrote this note? \n\n And why did this mysterious person leave you here alone? \n\n You have a sip of the green tea on top of the table.");
+        ui.choice1.setText("Look around");
+        ui.choice2.setText("Head out");
+
+        game.nextPosition1 = "lookAroundShed";
+        game.nextPosition2 = "goFindShedsOwner";
+    }
+    public void dontDrinkTea(){
+        ui.mainTextArea.setText("Who wrote this note? \n\n And why did this mysterious person leave you here alone? \n\n You have a sip of the green tea on top of the table.");
         ui.choice1.setText("Look around");
         ui.choice2.setText("Head out");
 
@@ -2353,7 +3747,7 @@ public class Story {
 
 
 
-
+//lAKE LAMIA AND FISH
     public void cultDeny(){
         ui.mainTextArea.setText("Well, may you rot then. \n You got what you deserve, for blasphemy \n \n Leave already!");
         ui.choice1.setText("Back to forest");
@@ -2529,8 +3923,8 @@ public class Story {
         game.nextPosition2 = "lamiaRevealCursePic";
     }
     public void lamiaRevealCursePic(){
-        vm.showPicture();
-        ui.image = new ImageIcon(".//res//lamia.png");
+//        vm.showPicture();
+//        ui.image = new ImageIcon(".//res//lamia.png");
         ui.pictureLabel.setIcon(ui.image);
 
         ui.choice1.setText("...");
@@ -2745,16 +4139,17 @@ public class Story {
         game.nextPosition2 = "";
     }
     public void fight(){
-        ui.mainTextArea.setText(monster.name + ": " + monster.hp + "\n\n\nWhat do you do?" );
-        ui.choice1.setText("Laifu");
-        ui.choice2.setText("Heyhu");
+        ui.mainTextArea.setText(monster.name + ": " + monster.hp + "\n\n" + monster.mainMessage +"\n\n\nWhat do you do?" );
+        ui.choice1.setText("Attack");
+        ui.choice2.setText("Other");
 
         game.nextPosition1 = "playerAttack";
         game.nextPosition2 = "";
     }
     public void playerAttack(){
-        int playerDamage = new java.util.Random().nextInt(5) +player.currentWeapon.damage;
-        ui.mainTextArea.setText("You attacked the " + monster.name + " and gave " + playerDamage + " Damage!");
+        int i = new java.util.Random().nextInt(4);
+        int playerDamage = i + player.currentWeapon.damage;
+        ui.mainTextArea.setText("\n\n" + player.currentWeapon.weaponAttackMsg[i]+ "\n\nYou attacked the " + monster.name + " and caused him " + playerDamage + " Damage!");
         monster.hp -= playerDamage;
         ui.choice1.setText("Next");
         ui.choice2.setText("");

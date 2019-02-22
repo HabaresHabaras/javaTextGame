@@ -4,4 +4,5 @@ public class SuperWeapon {
 
     public String name;
     public int damage;
+    public String[] weaponAttackMsg;
 }
